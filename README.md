@@ -1,15 +1,26 @@
 # SIGIR-SP-PrivacyEvalLLMs
 Repository for the SIGIR Short Paper (SP) on Assessing Privacy of Obfuscation Mechanisms using LLMs.
 
+
 ## Structure
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      The repository is structured as follows:
+      <ul>
+        <li><code>appendix/</code>: Contains the appendix of the paper.</li>
+        <li><code>config/</code>: Contains the configuration files for the experiments. (To run them you need to generate a conda env from the <code>env.yml</code> file and a cloud key from the <a href="https://console.groq.com/playground">Groq Cloud Platform</a>)</li>
+        <li><code>data/</code>: Contains the data used in the experiments. (Query_ID, Original_text, Obfuscated_text, LLM_Score, LLM_Justification, LLM)</li>
+        <li><code>results/</code>: Contains the results of the experiments.</li>
+        <li><code>src/</code> and <code>demo.py</code>: Contains the code to run the experiments.</li>
+      </ul>
+    </td>
+    <td>
+      <img src="plots/niceImage.png" alt="LLM">
+    </td>
+  </tr>
+</table>
 
-The repository is structured as follows:
-
-- `appendix/`: Contains the appendix of the paper.
-- `config/`: Contains the configuration files for the experiments. (To run them you need to generate a a conda env from the env.yml file and a cloud key from the  [Groq Cloud Platform](https://console.groq.com/playground)))
-- `data/`: Contains the data used in the experiments. (Query_ID, Original_text, Obfuscated_text, LLM_Score, LLM_Justification, LLM)
-- `results`: Contains the results of the experiments. 
-- `src/` and `demo.py`: Contains the code to run the experiments.
 
 ## Running the code
 
