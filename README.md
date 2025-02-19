@@ -17,7 +17,7 @@ Repository for the SIGIR Short Paper (SP) on Assessing Privacy of Obfuscation Me
       </ul>
     </td>
     <td style="border: none;">
-      <img src="plots/niceImage.png" alt="LLM">
+      <img src="./plots/niceImage.png" alt="LLM">
     </td>
   </tr>
 </table>
@@ -50,16 +50,16 @@ Remark: Put the Groq cloud key in the `config/key.txt` file.
 Prompt Used
 
 <p algn="center">
-  <img src="plots/textPrompts.png" alt="Prompts">
+  <img src="./plots/textPrompts.png" alt="Prompts">
 </p>
 
 Distributions of LLM Scores
 <p align="center">
-  <img src="plots/legend_prompts.png" alt="Legend">
+  <img src="./plots/legend_prompts.png" alt="Legend">
 </p>
 <p align="left">
     DeepLearning19
-  <img src="plots/distributions_msmarco-dl19.png" alt="MSMarcoDL19">
+  <img src="./plots/distributions_msmarco-dl19.png" alt="MSMarcoDL19">
 </p>
 <p align="left">
     Medline04
