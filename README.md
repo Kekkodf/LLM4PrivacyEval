@@ -3,25 +3,20 @@ Repository for the SIGIR Short Paper (SP) on Assessing Privacy of Obfuscation Me
 
 
 
-<table style="border-collapse: collapse; border: none">
-  <tr>
-    <td style="border: none; padding-right: 20px; vertical-align: top;">
-        <h2>Structure</h2>
-      The repository is structured as follows:
-      <ul>
-        <li><code>appendix/</code>: Contains the appendix of the paper.</li>
-        <li><code>config/</code>: Contains the configuration files for the experiments. (To run them you need to generate a conda env from the <code>env.yml</code> file and a cloud key from the <a href="https://console.groq.com/playground">Groq Cloud Platform</a>).</li>
-        <li><code>data/</code>: Contains the data used in the experiments. (Query_ID, Original_text, Obfuscated_text, LLM_Score, LLM_Justification, LLM).</li>
-        <li><code>results/</code>: Contains the results of the experiments.</li>
-        <li><code>src/</code> and <code>demo.py</code>: Contains the code to run the experiments.</li>
-      </ul>
-    </td>
-    <td style="border: none;">
-      <img src="./plots/niceImage.png" alt="LLM">
-    </td>
-  </tr>
-</table>
+## Structure
 
+The repository is structured as follows:
+
+- `appendix/`: Contains the appendix of the paper.  
+- `config/`: Contains the configuration files for the experiments.  
+  (To run them, you need to generate a conda environment from the `env.yml` file and a cloud key from the  
+  [Groq Cloud Platform](https://console.groq.com/playground).)  
+- `data/`: Contains the data used in the experiments.  
+  (Query_ID, Original_text, Obfuscated_text, LLM_Score, LLM_Justification, LLM.)  
+- `results/`: Contains the results of the experiments.  
+- `src/` and `demo.py`: Contain the code to run the experiments.  
+
+![LLM](./plots/niceImage.png)
 
 
 ## Running the code
@@ -49,20 +44,17 @@ Remark: Put the Groq cloud key in the `config/key.txt` file.
 
 Prompt Used
 
-<p algn="center">
-  <img src="./plots/textPrompts.png" alt="Prompts">
-</p>
+  ![Prompts](./plots/textPrompts.png)
 
-Distributions of LLM Scores
-<p align="center">
-  <img src="./plots/legend_prompts.png" alt="Legend">
-</p>
-<p align="left">
-    DeepLearning19
-  <img src="./plots/distributions_msmarco-dl19.png" alt="MSMarcoDL19">
-</p>
-<p align="left">
-    Medline04
-  <img src="plots/distributions_medline-2004.png" alt="MEDLINE04">
-</p>
+
+### Distributions of LLM Scores
+
+  ![Legend](./plots/legend_prompts.png)
+
+  **DeepLearning19**  
+  ![MSMarcoDL19](./plots/distributions_msmarco-dl19.png)
+
+  **Medline04**  
+  ![MEDLINE04](./plots/distributions_medline-2004.png)
+
 
