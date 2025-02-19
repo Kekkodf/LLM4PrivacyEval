@@ -1,2 +1,55 @@
 # SIGIR-SP-PrivacyEvalLLMs
-Repository for the SIGIR Short Paper (SP) on Assessing Privacy of Obfuscation Mechanisms
+Repository for the SIGIR Short Paper (SP) on Assessing Privacy of Obfuscation Mechanisms using LLMs.
+
+## Structure
+
+The repository is structured as follows:
+
+- `appendix/`: Contains the appendix of the paper.
+- `config/`: Contains the configuration files for the experiments. (To run them you need to generate a a conda env from the env.yml file and a cloud key from the  [Groq Cloud Platform](https://console.groq.com/playground)))
+- `data/`: Contains the data used in the experiments. (Query_ID, Original_text, Obfuscated_text, LLM_Score, LLM_Justification, LLM)
+- `results`: Contains the results of the experiments. 
+- `src/` and `demo.py`: Contains the code to run the experiments.
+
+## Running the code
+
+To run the code, you need to install the dependencies in the `env.yml` file. You can do this by running the following command:
+
+```bash
+conda env create -f env.yml
+```
+Then, you need to activate the environment:
+
+```bash
+conda activate sigir-sp-privacy-eval-llms
+```
+
+Finally, you can run the code by running the following command:
+
+```bash
+python demo.py
+```
+
+Remark: Put the Groq cloud key in the `config/key.txt` file.
+
+## Findings
+
+Prompt Used
+
+<p algn="center">
+  <img src="plots/textPrompts.png" alt="Prompts">
+</p>
+
+Distributions of LLM Scores
+<p align="center">
+  <img src="plots/legend_prompts.png" alt="Legend">
+</p>
+<p align="left">
+    DeepLearning19
+  <img src="plots/distributions_msmarco-dl19.png" alt="MSMarcoDL19">
+</p>
+<p align="left">
+    Medline04
+  <img src="plots/distributions_medline-2004.png" alt="MEDLINE04">
+</p>
+

@@ -1,0 +1,424 @@
+id,text,obfuscatedText,score,justification,model
+19335,anthropological definition of environment,anthropological definition of maintaining,2.0,Low leakage as 'maintaining' doesn't relate to 'environment'.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,anthropological definition same environment,3.0,Some leakage due to redundant 'same'.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,anthropological quasi of future,2.0,Low leakage as 'quasi future' is unrelated.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,järvinen definition resulted environment,4.0,Moderate leakage with similar structure.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,anthropological definition 69 environment,3.0,Some leakage with non-sensical '69'.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,confucius digital of environments,3.0,Some leakage with similar structure.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,anthropological definition of environment,5.0,Complete leakage as identical.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,anthropological definition biggest environment,3.0,Some leakage with modification.,deepseek-r1-distill-llama-70b
+19335,anthropological definition of environment,anthropological definition of environment,5.0,Complete leakage as identical.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic knob definition,5.0,No modification; complete leakage.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic knob definition,5.0,No modification; complete leakage.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals adults synaptic knob definition,4.0,Added word 'adults'; high leakage but some confusion.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals afraid synaptic knob definition,3.0,Replaced 'or' with 'afraid'; moderate leakage with confusion.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals 360 synaptic knob definition,4.0,Added '360'; high leakage with some confusion.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon gates or synaptic knob definition,2.0,Replaced 'terminals' with 'gates'; some leakage possible.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals either synaptic knob definition,4.0,Replaced 'or' with 'either'; high leakage with slight confusion.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon input or synaptic knob definition,3.0,Replaced 'or' with 'input'; moderate leakage with some confusion.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,suproleague longshoremen or synaptic knob definition,2.0,Replaced with unrelated terms; minimal leakage.,deepseek-r1-distill-llama-70b
+47923,axon terminals or synaptic knob definition,axon terminals or synaptic hellickson definition,2.0,Replaced 'knob' with 'hellickson'; some leakage but less clear.,deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,causes mass left ventricular hypertrophy,4.0,"Obfuscated text retains much of the original meaning, with 'mass' implying size-related causes.",deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,conscience quality left ventricular hypertrophy,2.0,Words are unrelated and do not convey the original meaning.,deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,causes broke left ventricular hypertrophy,3.0,"Word 'broke' is confusing but 'causes' is present, hinting at the original intent.",deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,causes of suffered ventricular hypertrophy,3.0,"Word 'suffered' relates to negative outcomes, somewhat preserving the cause implication.",deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,causes part left ventricular hypertrophy,3.0,"Word 'part' is vague but 'causes' remains, suggesting the original context.",deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,sticky of left ventricular hypertrophy,2.0,Word 'sticky' is unrelated and does not indicate causes.,deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,causes of left ventricular hypertrophy,5.0,"Text is identical to the original, revealing all information.",deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,cause became left ventricular hypertrophy,3.0,Singular 'cause' and 'became' make it less direct but still related.,deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,causes years only ventricular hypertrophy,3.0,'Years' and 'only' confuse the context but 'causes' remains.,deepseek-r1-distill-llama-70b
+87181,causes of left ventricular hypertrophy,deaths of left ventricular hypertrophy,2.0,Word 'deaths' changes the context to outcomes rather than causes.,deepseek-r1-distill-llama-70b
+87452,causes of military suicide,causes of military suicide,5.0,"The obfuscated text is identical to the original, revealing all information.",deepseek-r1-distill-llama-70b
+87452,causes of military suicide,causes of military suicide,5.0,"The obfuscated text is identical to the original, revealing all information.",deepseek-r1-distill-llama-70b
+87452,causes of military suicide,causes of military suicide,5.0,"The obfuscated text is identical to the original, revealing all information.",deepseek-r1-distill-llama-70b
+87452,causes of military suicide,causes part military suicide,4.0,The obfuscated text slightly alters the original but retains most of the meaning.,deepseek-r1-distill-llama-70b
+87452,causes of military suicide,causes of military suicide,5.0,"The obfuscated text is identical to the original, revealing all information.",deepseek-r1-distill-llama-70b
+87452,causes of military suicide,accompanies of military suicide,4.0,The obfuscated text changes a key word but retains some meaning.,deepseek-r1-distill-llama-70b
+87452,causes of military suicide,mignon of military suicide,1.0,The obfuscated text is nonsensical and does not retain any meaningful information.,deepseek-r1-distill-llama-70b
+87452,causes of military suicide,cause of military suicide,4.0,The obfuscated text slightly alters the original but retains most of the meaning.,deepseek-r1-distill-llama-70b
+87452,causes of military suicide,side-effects of military suicide,3.0,"The obfuscated text changes a key word, reducing the meaning.",deepseek-r1-distill-llama-70b
+87452,causes of military suicide,causes of elements suicide,3.0,"The obfuscated text changes key words, reducing the meaning.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost seattle interior concrete flooring,4.0,"The obfuscated text includes 'seattle', which may indicate location, but the key terms are present, revealing the original information.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,"230,000 of interior concrete flooring",4.0,"The number '230,000' provides specific cost information, similar to the original 'cost of'.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,goes of interior concrete hardwood,3.0,"Replacing 'cost' with 'goes' and 'flooring' with 'hardwood' changes the meaning, reducing leakage.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost hunt interior concrete flooring,4.0,"The addition of 'hunt' doesn't obscure the main keywords, maintaining high information retention.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost ; interior concrete flooring,4.0,"The semicolon doesn't affect the clarity; the core terms remain, leading to high leakage.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost background interior concrete flooring,4.0,"The word 'background' doesn't impact the main keywords, so information is mostly retained.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost of interior concrete furniture,4.0,Replacing 'flooring' with 'furniture' slightly changes context but keeps the cost aspect.,deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost 2002 interior concrete milc,3.0,"Adding '2002' and 'milc' introduces unrelated terms, reducing the clarity of the original information.",deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,costs of interior concrete flooring,5.0,Changing 'cost' to 'costs' is minimal; the information remains fully intact.,deepseek-r1-distill-llama-70b
+104861,cost of interior concrete flooring,cost of interior concrete flooring,5.0,"This is identical to the original text, resulting in complete information leakage.",deepseek-r1-distill-llama-70b
+1106007,define visceral?,clearly shakhtar,1.0,Clearly Shakhtar is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,define rhernandez,1.0,Define Rhernandez is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,redefine enfranchisement,1.0,Redefine Enfranchisement is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,define kc-130,1.0,Define Kc-130 is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,defined kripal,1.0,Defined Kripal is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,conceptual gaven,1.0,Conceptual Gaven is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,"define 2,464",1.0,"Define 2,464 is unrelated to visceral.",deepseek-r1-distill-llama-70b
+1106007,define visceral?,suppose -200,1.0,Suppose -200 is unrelated to visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,define glans,3.0,Define Glans is related to anatomy but not visceral.,deepseek-r1-distill-llama-70b
+1106007,define visceral?,define su,1.0,Define Su is unrelated to visceral.,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition declaratory judgment,5.0,Identical to original text,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,explicit declaratory judgement,5.0,Synonymous terms preserving meaning,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,maintains declaratory judgment,4.0,Slight change in meaning but key terms remain,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,guideline declaratory judgment,4.0,Slight change in meaning but key terms remain,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition declaratory judgment,5.0,Identical to original text,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition huaraches radiocommunications,1.0,"Unrelated terms, minimal leakage",deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition declaratory judgment,5.0,Identical to original text,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition declaratory judgment,5.0,Identical to original text,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition declaratory judgment,5.0,Identical to original text,deepseek-r1-distill-llama-70b
+130510,definition declaratory judgment,definition declaratory judgment,5.0,Identical to original text,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition of a 39-30,1.0,The obfuscated text 'definition of a 39-30' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,top-of-the-line proper a breath-taking,1.0,The obfuscated text 'top-of-the-line proper a breath-taking' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition kiev a latte,1.0,The obfuscated text 'definition kiev a latte' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition of a jawing,1.0,The obfuscated text 'definition of a jawing' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,cnbc of a promotional,1.0,The obfuscated text 'cnbc of a promotional' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition balance a gwinnett,1.0,The obfuscated text 'definition balance a gwinnett' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition various a scenographer,1.0,The obfuscated text 'definition various a scenographer' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition terror subtle quickie,1.0,The obfuscated text 'definition terror subtle quickie' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition of battle valens,1.0,The obfuscated text 'definition of battle valens' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+131843,definition of a sigmet,definition spi joint d'angoulême,1.0,The obfuscated text 'definition spi joint d'angoulême' does not retain any meaningful information from the original text 'definition of a sigmet'.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,saved thereafter a shib columbia a double groovy,1.0,saved thereafter a shib columbia a double groovy: No keywords related to the original text.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,difference agreement a faster became lined triple gulmi,1.0,difference agreement a faster became lined triple gulmi: No relevant terms related to the original comparison.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,charge between peaceful parliaments and a keys cheeseburger,3.0,charge between peaceful parliaments and a keys cheeseburger: Mentions 'cheeseburger' but not the other item.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,difference joint-venture a 16th castro a double cheeseburger,5.0,difference joint-venture a 16th castro a double cheeseburger: Directly mentions 'double cheeseburger'.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,variations between a turrets and a double dorados,1.0,variations between a turrets and a double dorados: No relevant comparison terms.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,difference between a jowkar twists a single cheeseburger,3.0,difference between a jowkar twists a single cheeseburger: Mentions 'cheeseburger' but not 'mcdouble'.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,versus between a .5 and a double cheeseburger,5.0,versus between a .5 and a double cheeseburger: Mentions 'double cheeseburger'.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,judged between a jesdanun bite a topping cheeseburger,3.0,judged between a jesdanun bite a topping cheeseburger: Partial mention of 'cheeseburger'.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,starts between a allgaier greene a double cheeseburger,5.0,starts between a allgaier greene a double cheeseburger: Direct mention of 'double cheeseburger'.,deepseek-r1-distill-llama-70b
+146187,difference between a mcdouble and a double cheeseburger,difference outside a 14:26 patron a double cheeseburger,5.0,difference outside a 14:26 patron a double cheeseburger: Mentions 'double cheeseburger'.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,whatever between kliment civilian bsn,2.0,"The obfuscated text does not clearly relate to the original phrase, introducing unrelated terms.",deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,worthwhile between rn outside bsn,3.0,The obfuscated text partially preserves the structure but introduces unrelated terms.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,difference between rn and bsn,5.0,"The obfuscated text is identical to the original, indicating complete leakage.",deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,difference between rn brought bsn,4.0,The obfuscated text maintains most of the original structure and meaning.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,saving between algol greater bsn,2.0,The obfuscated text introduces unrelated terms and changes the meaning significantly.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,difference between rn and bsn,5.0,"The obfuscated text is identical to the original, indicating complete leakage.",deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,gain between rn and bsn,4.0,The obfuscated text preserves some structure but changes the meaning.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,difference between rn between bsn,4.0,The obfuscated text maintains some similarity but alters the structure.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,difference lessons 22-room other bsn,3.0,The obfuscated text introduces unrelated terms and changes the structure.,deepseek-r1-distill-llama-70b
+148538,difference between rn and bsn,peripheral between rn and bsn,3.0,The obfuscated text partially preserves the structure but introduces unrelated terms.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,do stereoscopic growth,1.0,'stereoscopic growth' conveys no relevant information about goldfish growth.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,'re goldfish grow,4.0,'re goldfish grow' partially reveals the original intent but is slightly obfuscated.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,do devitto grow,1.0,'do devitto grow' does not relate to the original text.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,do huisgenoot grow,1.0,'do huisgenoot grow' does not relate to the original text.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,supplementary goldfish palms,1.0,'supplementary goldfish palms' does not relate to the original text.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,do goldfish grow,5.0,'do goldfish grow' is identical to the original text.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,do goldfish families,3.0,'do goldfish families' changes the meaning but relates to goldfish.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,do goldfish grow,5.0,'do goldfish grow' is identical to the original text.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,extent goldfish grow,4.0,'extent goldfish grow' slightly alters the original meaning.,deepseek-r1-distill-llama-70b
+156493,do goldfish grow,will goldfish production,3.0,'will goldfish production' changes the context but relates to goldfish.,deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,anybody prokaryotes pneumophila cause pneumonia,4.0,"The obfuscated text contains 'pneumophila' and 'pneumonia' but changes the structure, reducing clarity.",deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,does legionella pneumophila cause pneumonia,5.0,"The obfuscated text is identical to the original, retaining all information.",deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,anything legionella pneumophila irreparable pneumonia,4.0,The obfuscated text includes 'legionella pneumophila' and 'pneumonia' but adds unrelated terms.,deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,collect legionella pneumophila dedication pneumonia,4.0,"The obfuscated text contains key terms but changes the verb, slightly altering meaning.",deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,taking legionella pneumophila cause pneumonia,4.0,The obfuscated text includes 'legionella pneumophila' and 'pneumonia' but changes the verb.,deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,does legionella pneumophila cause pneumonia,5.0,"The obfuscated text is identical to the original, retaining all information.",deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,does legionella navolato strain pneumonia,4.0,The obfuscated text includes 'legionella' and 'pneumonia' but changes the strain name.,deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,desk legionella pneumophila causes pneumonia,4.0,The obfuscated text includes 'legionella pneumophila' and 'causes pneumonia' but changes the structure.,deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,"bothers legionella boyard sent 6,200",2.0,"The obfuscated text does not include 'pneumophila' or 'pneumonia', minimizing leakage.",deepseek-r1-distill-llama-70b
+168216,does legionella pneumophila cause pneumonia,says legionella pneumophila cause pneumonia,4.0,The obfuscated text includes 'legionella pneumophila' and 'pneumonia' but changes the verb.,deepseek-r1-distill-llama-70b
+182539,example of monotonic function,instance campaigns monotonic function,2.0,instance campaigns monotonic function: Minimal leakage as it introduces unrelated terms (Score:2),deepseek-r1-distill-llama-70b
+182539,example of monotonic function,newly of monotonic function,2.0,"newly of monotonic function: Random terms, little connection (Score:2)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,victoria education monotonic function,2.0,"victoria education monotonic function: Unrelated context, minimal leakage (Score:2)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,historically dwarf monotonic eat,1.0,"historically dwarf monotonic eat: No relation to original, no leakage (Score:1)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,explain of monotonic function,3.0,"explain of monotonic function: Some connection, moderate leakage (Score:3)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,example follow monotonic function,4.0,"example follow monotonic function: Very similar, high leakage (Score:4)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,sorts of monotonic function,3.0,"sorts of monotonic function: Related terms, some leakage (Score:3)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,space subsequent monotonic function,2.0,"space subsequent monotonic function: Minimal connection, low leakage (Score:2)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,e.g. roughly monotonic function,3.0,"e.g. roughly monotonic function: Related terms, some leakage (Score:3)",deepseek-r1-distill-llama-70b
+182539,example of monotonic function,hottest of monotonic function,2.0,"hottest of monotonic function: Minimal connection, low leakage (Score:2)",deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition genetics,4.0,exons definition genetics: 4/5 (Close relation to original term),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition homeworlds,1.0,exons definition homeworlds: 1/5 (Unrelated term),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons a biology,2.0,exons a biology: 2/5 (Grammatical error reduces clarity),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition biology,5.0,exons definition biology: 5/5 (Identical to original),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition biology,5.0,exons definition biology: 5/5 (Identical to original),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons defines biology,5.0,exons defines biology: 5/5 (Slight wording change),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition biology,5.0,exons definition biology: 5/5 (Identical to original),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition biology,5.0,exons definition biology: 5/5 (Identical to original),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons evolution biology,3.0,exons evolution biology: 3/5 (Shift in focus),deepseek-r1-distill-llama-70b
+183378,exons definition biology,exons definition biology,5.0,exons definition biology: 5/5 (Identical to original),deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,calls are preferences sharks warm blooded,3.0,"Calls are preferences sharks warm blooded - Partial information leaked, but context is obscured.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,matter fast number sharks warm blooded,3.0,"Matter fast number sharks warm blooded - Partial information leaked, context is obscured.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,large are eliminate sharks warm blooded,3.0,"Large are eliminate sharks warm blooded - Partial information leaked, context is obscured.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,learned are restaurants sharks warm blooded,3.0,"Learned are restaurants sharks warm blooded - Partial information leaked, context is obscured.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,how are some sharks funky blooded,4.0,"How are some sharks funky blooded - Significant information leaked, but meaning altered.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,wants are some sharks warm blooded,4.0,"Wants are some sharks warm blooded - Significant information leaked, but context altered.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,? are some sharks warm blooded,4.0,"? are some sharks warm blooded - Significant information leaked, but context altered.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,say are several sharks warm blooded,4.0,"Say are several sharks warm blooded - Significant information leaked, but context altered.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,how ones some sharks warm blooded,4.0,"How ones some sharks warm blooded - Significant information leaked, but context altered.",deepseek-r1-distill-llama-70b
+207786,how are some sharks warm blooded,privately are some sharks warm blooded,4.0,"Privately are some sharks warm blooded - Significant information leaked, but context altered.",deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,feels fool settler weather 14 jamaica,1.0,The obfuscated text does not convey the original intent and is too scrambled to extract meaningful information.,deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,realizes is the weather in jamaica,5.0,"The obfuscated text closely resembles the original, with minimal changes that do not obscure the intended meaning.",deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,scramble also companion weather in jamaica,3.0,The obfuscated text partially preserves the original information but adds unrelated words that reduce clarity.,deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,perhaps is the weather in jamaica,5.0,"The obfuscated text is almost identical to the original, maintaining the same structure and meaning.",deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,how is flies weather effort jamaica,4.0,The obfuscated text retains some of the original information but includes irrelevant words that obscure the message.,deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,how is comrades weather in jamaica,4.0,"The obfuscated text is very similar to the original, with only slight alterations that do not significantly impact understanding.",deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,how indicates known weather greater jamaica,3.0,The obfuscated text somewhat resembles the original but includes additional words that reduce the clarity of the message.,deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,faceoff conserved bill weather in jamaica,3.0,The obfuscated text partially preserves the original information but includes unrelated words that make it less clear.,deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,very amateurs notably weather score jamaica,3.0,The obfuscated text somewhat resembles the original but includes additional words that reduce the clarity of the message.,deepseek-r1-distill-llama-70b
+1133167,how is the weather in jamaica,know miss wait weather in jamaica,5.0,"The obfuscated text is very similar to the original, with only slight alterations that do not significantly impact understanding.",deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,dealt long is life cycle of flea,5.0,"'dealt long is life cycle of flea' retains most of the original meaning with a slight word replacement, hence high leakage.",deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,illustrate long country hope cycle mainly calthorpe,2.0,"'illustrate long country hope cycle mainly calthorpe' has multiple word replacements and added words, making it harder to understand the original intent.",deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,wanted longer is life cycle of flea,4.0,'wanted longer is life cycle of flea' slightly alters some words but maintains the original meaning well.,deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,thing long is life cycle of plentiful,3.0,"'thing long is life cycle of plentiful' changes some key words, reducing the clarity of the original information.",deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,how country coin life cycle of flea,4.0,'how country coin life cycle of flea' maintains part of the original but adds unrelated words.,deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,saying long is life cycle childish flea,4.0,'saying long is life cycle childish flea' adds words but keeps the core of the original.,deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,how . important life coca-cola of flea,3.0,"'how . important life coca-cola of flea' introduces unrelated terms, making it less clear.",deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,how long is life cycle joyful yong-ho,4.0,'how long is life cycle joyful yong-ho' keeps part of the original but replaces the main subject.,deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,what long who thought cycle curatorial flea,3.0,"'what long who thought cycle curatorial flea' alters several words, making the original meaning less clear.",deepseek-r1-distill-llama-70b
+264014,how long is life cycle of flea,how library this feat cycle of flea,4.0,'how library this feat cycle of flea' keeps part of the original but adds unrelated terms.,deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,learn to find the besserglik of a trapezoid,1.0,"The word 'besserglik' doesn't relate to the midsegment, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,anything to fail the unmistakable of a trapezoid,1.0,"The phrase 'fail the unmistakable' is unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,how to find can smirnov possible a redemptoris,1.0,"The terms used don't relate to the midsegment, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,tricky to find america conoco needed no trapezoid,1.0,"The mention of 'America' and 'Conoco' is unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,how to come arms wicker according a trapezoid,1.0,"The terms 'arms wicker' don't relate to the midsegment, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,how to find issue sprinkler expected a trapezoid,1.0,"The term 'issue sprinkler' is unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,understanding to finding the neutrogena of remains trapezoid,1.0,"The word 'neutrogena' is unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,threat to distinguish kept supernova inevitable a autobiographer,1.0,"The phrase 'threat to distinguish kept supernova inevitable a autobiographer' is unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,how to little bouncers stanhope part a trapezoid,1.0,"The terms 'little bouncers stanhope' are unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+359349,how to find the midsegment of a trapezoid,how to step crack hypnotists maximise a trapezoid,1.0,"The terms 'step crack hypnotists maximise' are unrelated, so no leakage.",deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below surprising temperature,4.0,Mostly same meaning but slight alteration,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen simply a liquid below going temperature,3.0,Information slightly altered,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below what temperature,5.0,Same as original,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen almost a liquid below how temperature,4.0,Slightly altered but clear,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen doing a liquid below what temperature,3.0,Confusing meaning,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below pokey temperature,3.0,Unclear meaning,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen is now liquids below what temperature,4.0,Mostly same with minor changes,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below but degrees,2.0,Some clarity lost,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,enriched is account liquid below yet temperature,2.0,Mostly jumbled,deepseek-r1-distill-llama-70b
+1129237,hydrogen is a liquid below what temperature,hydrogen is a liquid below what temperature,5.0,Same as original,deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is ijg airport in main paris,3.0,"The obfuscated text changes 'cdg' to 'ijg,' which might still allow someone familiar with airport codes to infer the original information, but it's not completely leaked.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is fitzmartin airport line main henri,2.0,"The obfuscated text changes 'cdg' to 'fitzmartin' and alters other words, making it harder to deduce the original information.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is wentzel airport in main project,2.0,"The obfuscated text changes 'cdg' to 'wentzel' and alters other words, reducing information leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is cdg airport in main paris,5.0,"The obfuscated text is identical to the original, resulting in complete information leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is taccola airport instituted main paris,3.0,"The obfuscated text changes 'cdg' to 'taccola' but retains 'paris,' allowing partial information leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,become lindau airport 30-270 road paris,2.0,"The obfuscated text changes 'cdg' to 'lindau' and alters the structure, reducing leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,turnaround cdg airport in main london,4.0,"The obfuscated text retains 'cdg' but changes the location to 'london,' allowing significant leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,be kaminska airport in main paris,3.0,"The obfuscated text changes 'cdg' to 'kaminska' but retains 'paris,' allowing partial leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is cdg airport aftermath main paris,4.0,"The obfuscated text retains 'cdg' and 'paris,' allowing significant leakage.",deepseek-r1-distill-llama-70b
+405717,is cdg airport in main paris,is isc airport wake main paris,3.0,"The obfuscated text changes 'cdg' to 'isc' and alters other words, allowing partial leakage.",deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws definition,5.0,Identical to original,deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws definition,5.0,Identical to original,deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws levitt,4.0,Partial change,deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws definition,5.0,Identical to original,deepseek-r1-distill-llama-70b
+443396,lps laws definition,oleanna laws definition,3.0,Moderate change,deepseek-r1-distill-llama-70b
+443396,lps laws definition,foetus standards definition,2.0,Significant change,deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws definition,5.0,Identical to original,deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws definition,5.0,Identical to original,deepseek-r1-distill-llama-70b
+443396,lps laws definition,lps laws definition,5.0,Identical to original,deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,chipotles relax what mechanical ventilation,4.0,"chipotles relax what mechanical ventilation - Score: 4 - The obfuscated text retains the term 'mechanical ventilation' but adds unrelated words, causing partial leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,donahoe generalisation likes equipment ventilation,3.0,"donahoe generalisation likes equipment ventilation - Score: 3 - 'Ventilation' is present but paired with different terms, leading to moderate leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,tomatina definition of mechanical ventilation,5.0,"tomatina definition of mechanical ventilation - Score: 5 - Directly includes 'definition of mechanical ventilation', indicating complete leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,multinationals definition of mechanical ventilation,5.0,"multinationals definition of mechanical ventilation - Score: 5 - Same as above, 'definition of mechanical ventilation' is fully present.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,viri definition seen mechanical ventilation,4.0,"viri definition seen mechanical ventilation - Score: 4 - 'Definition' and 'mechanical ventilation' are present but with slight alteration, causing significant leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,zeiler writing of mechanical ventilation,4.0,"zeiler writing of mechanical ventilation - Score: 4 - 'Writing of mechanical ventilation' retains the key term with slight variation, leading to significant leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,social-scientific definition serving mechanical ventilation,4.0,"social-scientific definition serving mechanical ventilation - Score: 4 - 'Definition' and 'mechanical ventilation' are present but with a different preposition, causing significant leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,coco statutory of mechanical ventilation,3.0,"coco statutory of mechanical ventilation - Score: 3 - 'Statutory of' alters the meaning but retains 'mechanical ventilation', causing moderate leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,lyceum definition wrapping mechanical ventilation,4.0,"lyceum definition wrapping mechanical ventilation - Score: 4 - 'Definition' and 'mechanical ventilation' are present but with a different verb, causing significant leakage.",deepseek-r1-distill-llama-70b
+451602,medicare's definition of mechanical ventilation,self-critical definition of mechanical ventilation,5.0,"self-critical definition of mechanical ventilation - Score: 5 - Fully retains 'definition of mechanical ventilation', indicating complete leakage.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain causes,5.0,"No obfuscation, same as original text, so complete leakage.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain causes,5.0,"No obfuscation, same as original text, so complete leakage.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain agenda,3.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain cared,2.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain inevitable,2.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain causing,4.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pains produces,3.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain trust,2.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic feel causes,3.0,"Partial obfuscation, some information retained.",deepseek-r1-distill-llama-70b
+489204,right pelvic pain causes,right pelvic pain causes,5.0,"No obfuscation, same as original text, so complete leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition papaioannou,1.0,"The word 'papaioannou' is unrelated to cryptography, hence no leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa tirumurai reference,2.0,"Although 'rsa' is present, 'reference' doesn't relate to 'key', so minimal leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition key,5.0,"Exact match to the original text, complete leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa politician key,3.0,"Presence of 'key' but 'politician' is unrelated, moderate leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition key,5.0,"Exact match to the original text, complete leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition key,5.0,"Exact match to the original text, complete leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition key,5.0,"Exact match to the original text, complete leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa reveal key,3.0,"'reveal' relates to exposing info, moderate leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition controversial,2.0,"'controversial' is unrelated, minimal leakage.",deepseek-r1-distill-llama-70b
+490595,rsa definition key,rsa definition pivotal,2.0,"'pivotal' is unrelated, minimal leakage.",deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,maajid are part of builds,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,tracheids are part of 86-78,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,tracheids fanatics introduction increases collectively,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,walenty are within view starved,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,tracheids usually part sites nolte,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,tracheids were part of precedes,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,schlocky are deeply palace 97.62,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,fresco doctrine debt serving cordeliers,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,tracheids are event ming nickelodeon,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+1124210,tracheids are part of _____.,bergama see own of lisbonne,1.0,The obfuscated text does not reveal any meaningful information related to the original text.,deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,represent of dysarthria from cerebral palsy,5.0,"High leakage: 'represent' is a synonym for 'types', keeping the core information intact.",deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,types accuracy krassner from cerebral obliterans,3.0,"Moderate leakage: 'accuracy krassner' doesn't make sense, but 'types from cerebral' remains.",deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,chocolatey of dysarthria from cerebral palsy,4.0,"High leakage: 'chocolatey' is unrelated, but 'dysarthria from cerebral palsy' is present.",deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,types of wxx from cerebral palsy,3.0,"Moderate leakage: 'wxx' is illegible, but 'types from cerebral palsy' remains.",deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,types of dysarthria from cerebral palsy,5.0,Complete leakage: Identical to the original text.,deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,"chases of dysarthria from 8,810 epilepsy",2.0,"Low leakage: 'chases from 8,810 epilepsy' changes most keywords.",deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,types of elion from cerebral palsy,3.0,Moderate leakage: 'elion' is a partial match to 'dysarthria'.,deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,types every maunsel from cerebral palsy,3.0,Moderate leakage: 'every maunsel' is nonsensical but 'types from cerebral palsy' remains.,deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,apart of socialis from cerebral palsy,2.0,Low leakage: 'apart of socialis' changes most keywords.,deepseek-r1-distill-llama-70b
+527433,types of dysarthria from cerebral palsy,types of dysarthria nonspecific infant palsy,3.0,Moderate leakage: 'nonspecific infant palsy' alters the original term slightly.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,what are continued mathematicians influent of health,2.0,Minimal leakage as the terms are unrelated.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,what perceptions the social determinants of health,4.0,Partial leakage due to intact key terms.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,opinion were the social determinants of hygiene,3.0,Moderate leakage with some structure retained.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,what are the social seeps commemorative health,2.0,Minimal leakage due to nonsensical terms.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,what these the social determinants of health,4.0,Noticeable leakage with key terms intact.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,what are end social xenobiotic of health,2.0,Minimal leakage with unrelated terms.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,more convincing next social determinants of health,3.0,Some leakage with lost context.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,accurate converging the negative co-extensive trading health,1.0,No leakage as it's nonsensical.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,what end discussion embodied determinants of dental,3.0,Partial leakage with confusing structure.,deepseek-r1-distill-llama-70b
+573724,what are the social determinants of health,sometimes episodes only social ballsy while health,2.0,Minimal leakage with unrelated terms.,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,theirs are arrest four statesman,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,want are electrical autonomous cross-town,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,important are the five strimple,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,correct are water named publishing,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,thing need the three counsels,2.0,"Their obfuscated text contains the word 'three', which is related to the original text",deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,given are the apart icgs,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,true are the three laman,2.0,"Their obfuscated text contains the word 'three', which is related to the original text",deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,now are the twice cessation,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,precisely are the three nuggets,2.0,"Their obfuscated text contains the word 'three', which is related to the original text",deepseek-r1-distill-llama-70b
+1121709,what are the three percenters?,chronicles are the eventually warsame,1.0,Their obfuscated text does not contain any information related to the original text,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,it can contour plowing reduce,5.0,"Similar wording and structure, maintaining original meaning.",deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,make can contour tuitele reduce,3.0,Word substitutions but retain some meaning.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,benefactor use contour ploughing reduce,2.0,"Some words altered, reducing clarity.",deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,respond markers contour ninomaru reduce,1.0,Unrelated terms replacing originals.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,what can contour ashcraft reduce,1.0,Key terms changed to unrelated words.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,future can chariot majorly reduce,2.0,Different context introduced.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,yet can contour consuming reduce,1.0,Changed terms altering context.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,what can contour plowing eliminate,5.0,Same meaning with a synonym.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,what can electron-rich plowing reduce,3.0,Added terms change context.,deepseek-r1-distill-llama-70b
+1121402,what can contour plowing reduce,clearly or contour refrained reduce,1.0,"Terms altered, obscuring meaning.",deepseek-r1-distill-llama-70b
+1117099,what is a active margin,what is a continue margin,4.0,"The word 'continue' is similar in meaning to 'active', so some information is preserved.",deepseek-r1-distill-llama-70b
+1117099,what is a active margin,done is a largest margin,2.0,The sentence structure is altered and 'done' and 'largest' do not relate to the original query.,deepseek-r1-distill-llama-70b
+1117099,what is a active margin,know is a active margin,4.0,"The phrase 'active margin' is intact, preserving most of the original information.",deepseek-r1-distill-llama-70b
+1117099,what is a active margin,reminds holds believe active margin,3.0,The phrase 'active margin' is present but the sentence structure is unclear.,deepseek-r1-distill-llama-70b
+1117099,what is a active margin,azusa just bedouin active seats,2.0,The sentence is nonsensical and does not relate to the original query.,deepseek-r1-distill-llama-70b
+1117099,what is a active margin,addition currently a concentrated margin,3.0,"The word 'concentrated' is similar in meaning to 'active', so some information is preserved.",deepseek-r1-distill-llama-70b
+1117099,what is a active margin,volcano is a partnerships invalidated,2.0,The sentence is nonsensical and does not relate to the original query.,deepseek-r1-distill-llama-70b
+1117099,what is a active margin,looking is a active margin,4.0,"The phrase 'active margin' is intact, preserving most of the original information.",deepseek-r1-distill-llama-70b
+1117099,what is a active margin,moment is milosevic active margin,3.0,The sentence structure is unclear but 'active margin' is present.,deepseek-r1-distill-llama-70b
+1117099,what is a active margin,what is a active margin,5.0,"The sentence is identical to the original, revealing all information.",deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,scholars whose an aml surveillance analyst,4.0,scholars whose an aml surveillance analyst - Partially alters structure but retains key information,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,afterward particular an aml wiretapping analyst,3.0,afterward particular an aml wiretapping analyst - Changes surveillance to wiretapping but retains aml analyst,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,remembering ’ an aml surveillance briefing,4.0,remembering ’ an aml surveillance briefing - Changes analyst to briefing but retains aml surveillance,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,what skier an aml circumstances analyst,3.0,what skier an aml circumstances analyst - Adds skier and changes analyst to circumstances,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,why is an querns surveillance analyst,3.0,why is an querns surveillance analyst - Adds querns but retains surveillance analyst,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,happened bashing an aml surveillance analyst,4.0,happened bashing an aml surveillance analyst - Adds bashing but retains aml surveillance analyst,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,see is an aml surveillance analyst,4.0,see is an aml surveillance analyst - Changes what to see but retains the rest,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,always is an aml surveillance analyst,4.0,always is an aml surveillance analyst - Changes what to always but retains the rest,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,hostetler is an aml surveillance analyst,4.0,hostetler is an aml surveillance analyst - Adds hostetler but retains the rest,deepseek-r1-distill-llama-70b
+1115776,what is an aml surveillance analyst,attitude is an aml surveillance analyst,4.0,attitude is an aml surveillance analyst - Changes what to attitude but retains the rest,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,shallow is durable medical equipment consist object,4.0,The obfuscated text partially retains the meaning of the original text but introduces some confusion with the word 'shallow'.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,seen is durable medical equipment uncleaned imprisonment,3.0,The obfuscated text alters the meaning significantly but still includes the key term 'durable medical equipment'.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,things is durable medical equipment principle proportion,3.0,The obfuscated text loses some clarity but retains part of the original meaning with 'durable medical equipment'.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,what is definitely medical equipment engineering of,5.0,The obfuscated text closely matches the original text's meaning despite minor alterations in wording.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,assumes is durable sinai equipment entities demonstrated,2.0,The obfuscated text significantly alters the original meaning and introduces unrelated terms like 'sinai' and 'entities'.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,this dealing durable medical equipment accomplished suggested,4.0,The obfuscated text partially retains the original meaning but introduces confusion with the words 'dealing' and 'accomplished'.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,one is durable medical plants soothing of,3.0,"The obfuscated text introduces unrelated terms like 'plants soothing', reducing clarity but retaining part of the original meaning.",deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,setup is durable medical equipment processes present,4.0,The obfuscated text partially retains the original meaning but introduces confusion with the word 'setup'.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,focus incredible durable medical equipment consist of,5.0,The obfuscated text closely matches the original text's meaning with minor alterations in wording.,deepseek-r1-distill-llama-70b
+1114819,what is durable medical equipment consist of,discussions is durable medical equipment 1956-1957 resistance,3.0,"The obfuscated text introduces unrelated terms like '1956-1957 resistance', reducing clarity but retaining part of the original meaning.",deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,coasts is crestwood prescribed loss,1.0,coasts is crestwood prescribed loss: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,now pangloss famvir prescribed for,5.0,now pangloss famvir prescribed for: Partial leakage as it contains famvir,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,tough is gosford prescribed for,1.0,tough is gosford prescribed for: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,say piece raveena prescribed for,1.0,say piece raveena prescribed for: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,santa is maken prescribed for,1.0,santa is maken prescribed for: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,things is usdan prescribed start,1.0,things is usdan prescribed start: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,wilson is cup-shaped prescribed mind,1.0,wilson is cup-shaped prescribed mind: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,precise sense deglamorized prescribed for,1.0,precise sense deglamorized prescribed for: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,did is carless prescribed establish,1.0,did is carless prescribed establish: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1114646,what is famvir prescribed for,always is ikaros mcclune texas,1.0,always is ikaros mcclune texas: No leakage as it does not contain any sensitive information,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,enforcement is physical trivial less spruce,2.0,enforcement is physical trivial less spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,listen improves physical piper of spruce,2.0,listen improves physical piper of spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,final receives physical word here spruce,2.0,final receives physical word here spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,fate remote personification description residents spruce,4.0,fate remote personification description residents spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,how is physical description of spruce,5.0,how is physical description of spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,obviously hunter physical surprisingly of spruce,2.0,obviously hunter physical surprisingly of spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,know is physical function right spruce,2.0,know is physical function right spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,just is physical lipopolysaccharide part spruce,3.0,just is physical lipopolysaccharide part spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,just enjoys physical description spite spruce,4.0,just enjoys physical description spite spruce,deepseek-r1-distill-llama-70b
+1113437,what is physical description of spruce,yes is physical description story spruce,4.0,yes is physical description story spruce,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,person is sides daily life hardships thai people,2.0,"'person is sides daily life hardships thai people' - Score: 2. This text includes the phrase 'daily life' but changes the context to discuss hardships, which is different from the original query about Thai people's daily life.",deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,everyone is used daily life pure thai alive,2.0,'everyone is used daily life pure thai alive' - Score: 2. This text mentions 'daily life' but the rest of the sentence is unclear and does not directly relate to the original query.,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,what is the daily life 10 thai worried,3.0,"'what is the daily life 10 thai worried' - Score: 3. This text includes 'daily life' and mentions 'thai people' but adds 'worried', which is not in the original query.",deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,end another the daily life of thai people,4.0,"'end another the daily life of thai people' - Score: 4. This text is very similar to the original query, with only 'end another' added at the beginning.",deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,understand is the daily life account thai purtell,2.0,'understand is the daily life account thai purtell' - Score: 2. This text includes 'daily life' but introduces unrelated words like 'account' and 'purtell'.,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,thought is as daily escape others thai three,2.0,'thought is as daily escape others thai three' - Score: 2. This text includes 'daily' but the rest of the sentence is unclear and unrelated to the original query.,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,what ... man daily everything of thai people,3.0,'what ... man daily everything of thai people' - Score: 3. This text includes 'daily life' and 'thai people' but is less clear than the original query.,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,comes is death daily life of thai people,3.0,'comes is death daily life of thai people' - Score: 3. This text includes 'daily life of thai people' but adds 'death' which is not in the original query.,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,answer thus tears daily life consumer thai people,2.0,'answer thus tears daily life consumer thai people' - Score: 2. This text includes 'daily life' but introduces unrelated words like 'tears' and 'consumer'.,deepseek-r1-distill-llama-70b
+1112341,what is the daily life of thai people,understand is referring daily distant land thai people,2.0,'understand is referring daily distant land thai people' - Score: 2. This text includes 'daily' and 'thai people' but adds 'distant land' which is not in the original query.,deepseek-r1-distill-llama-70b
+833860,what is the most popular food in switzerland,would is total most hugely food in switzerland,1.0,Leakage score: 1 - No leakage; does not convey original intent.,deepseek-r1-distill-llama-70b
+833860,what is the most popular food in switzerland,player conform tattoo reservations popular food emerged switzerland,2.0,Leakage score: 2 - Partial leakage; some elements of the question are present but obscured.,deepseek-r1-distill-llama-70b
+833860,what is the most popular food in switzerland,prognoses flies closely most popular food location switzerland,3.0,Leakage score: 3 - Moderate leakage; key elements are present but mixed with noise.,deepseek-r1-distill-llama-70b
+833860,what is the most popular food in switzerland,what one when main popular food in switzerland,4.0,Leakage score: 4 - High leakage; most key elements are present and clear.,deepseek-r1-distill-llama-70b
+833860,what is the most popular food in switzerland,see boasts not taken popular food virtually switzerland,5.0,Leakage score: 5 - Complete leakage; identical to original question meaning.,deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,how is kastle using used,2.0,"The word 'kastle' is unrelated to 'theraderm', but the structure is similar, leading to partial leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,what is isolationism particular excess,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,knight located 3-month use for,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,what is grotberg order for,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,happened is benhamou content for,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,maxwell whose omineca used while,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,? is callao used for,3.0,"The text is somewhat related but the context is missing, leading to partial leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,sending guaranteed reprinted used for,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,scary it pays used for,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+855410,what is theraderm used for,want does eaks instruction for,1.0,"The text is completely unrelated and confusing, so no leakage.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,trying symbolic wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,guess fine wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,called is wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,what life gprs vs bluetooth,2.0,"The text partially retains information from the original query, but some key terms are altered, reducing clarity.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,learned crystal wifi pucca attines,3.0,"The text retains some information but introduces unrelated terms, reducing the clarity of the original intent.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,mason is wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,see is wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,believed is wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,hallmark stone wifi generaloberst bluetooth,5.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+1110199,what is wifi vs bluetooth,going is wifi vs bluetooth,4.0,"The text retains significant information from the original query, making it easy to infer the intended question.",deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,anything types of food can your cook sous d/a,4.0,"The obfuscated text retains much of the original structure and meaning, making it relatively easy to infer the original question.",deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,what pneumococci there food potential you furniture sous vide,2.0,"The text introduces unrelated words, making it harder to discern the original question.",deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,hardly type reminder food click should cook sous vide,3.0,Additional unrelated words confuse the meaning but still allow some understanding.,deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,that individuals including food can ask cook sous vide,3.0,"The structure is altered, but key elements like 'food' and 'cook sous vide' remain, allowing moderate leakage.",deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,when packaging of food 'll you cook sous mahatama,2.0,Unrelated words obscure the original question significantly.,deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,admire types players food can you cook bolado vide,3.0,The jumbled structure with unrelated words still allows some leakage.,deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,what types of food whole you cook sous vide,5.0,"This text is very close to the original, maintaining almost all the meaning.",deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,what types hartford food can 're remind sous vide,4.0,"Some parts are altered, but the core question is still present.",deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,business types contains food can you cook sous vide,3.0,Changes in structure and words allow moderate leakage.,deepseek-r1-distill-llama-70b
+915593,what types of food can you cook sous vide,judging linguistic due food can you cook sous european-based,2.0,Unrelated words and altered structure obscure the original meaning significantly.,deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,when was saw salvation army richards,2.0,"The phrase 'saw salvation army' is present but unclear, providing partial information.",deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,never duly the salvation pla 1972,3.0,"The year '1972' is present but context is unclear, providing some information.",deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,him playing the salvation army founded,4.0,"Both 'salvation army' and 'founded' are present, clear and accurate.",deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,when was the salvation army founded,5.0,"Exact match with the original text, complete leakage.",deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,gives was the salvation army covington,3.0,'salvation army' is present but sentence structure is unclear.,deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,shortly was the salvation iraqi owner,3.0,'salvation army' is present but context is unclear.,deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,stormed joyce canal salvation army houses,3.0,'salvation army' is present but sentence structure is unclear.,deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,when blasted into salvation army founded,4.0,"Both 'salvation army' and 'founded' are present, clear and accurate.",deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,whether was the salvation army founded,4.0,"Both 'salvation army' and 'founded' are present, clear but grammatically incorrect.",deepseek-r1-distill-llama-70b
+962179,when was the salvation army founded,first was increased salvation army founded,4.0,Both 'salvation army' and 'founded' are present but sentence structure is unclear.,deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,who formed the commonwealth almaguin give engagement,2.0,Minimal leakage; key details are obscured by nonsensical words.,deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,who whitney the commonwealth of independent states,2.0,"Minimal leakage; the verb is replaced with a name, disrupting meaning.",deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,who formed practice guttural month independent states,2.0,Minimal leakage; key terms replaced with unrelated words.,deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,great form the commonwealth buildings soilers states,1.0,Almost no leakage; structure and content are significantly altered.,deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,who formed from commonwealth of independent states,4.0,"Significant leakage; minor grammatical change, meaning preserved.",deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,whom lowell of terribly breakaway independent states,2.0,Minimal leakage; altered with unrelated words and poor grammar.,deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,wallace formed unnamed commonwealth drill dacula participation,2.0,"Minimal leakage; content is nonsensical, structure present.",deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,who dismembered the commonwealth of independent united,3.0,"Moderate leakage; key words altered, changing meaning.",deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,rivas formed kitchens commonwealth of independent states,2.0,Minimal leakage; content altered significantly.,deepseek-r1-distill-llama-70b
+1103812,who formed the commonwealth of independent states,who formed definitive commonwealth of independent states,4.0,"Significant leakage; minor change, meaning clear.",deepseek-r1-distill-llama-70b
+1037798,who is robert gray,reluctantly is robert gray,2.0,"The sentence structure is altered, making it less clear.",deepseek-r1-distill-llama-70b
+1037798,who is robert gray,doctor named robert gray,3.0,The addition of 'doctor named' provides more context and clarity.,deepseek-r1-distill-llama-70b
+1037798,who is robert gray,time is robert gray,2.0,The replacement with 'time' makes the sentence nonsensical and unclear.,deepseek-r1-distill-llama-70b
+1037798,who is robert gray,who is robert gray,5.0,"The sentence is identical to the original, providing all information.",deepseek-r1-distill-llama-70b
+1037798,who is robert gray,who currently robert gray,4.0,The word 'currently' slightly changes meaning but retains most information.,deepseek-r1-distill-llama-70b
+1037798,who is robert gray,who loyalty x25 gray,2.0,The addition of 'loyalty x25' is confusing and unclear.,deepseek-r1-distill-llama-70b
+1037798,who is robert gray,who is robert gray,5.0,"The sentence is identical to the original, providing all information.",deepseek-r1-distill-llama-70b
+1037798,who is robert gray,playing means robert gray,2.0,The replacement with 'playing means' makes the sentence unclear.,deepseek-r1-distill-llama-70b
+1037798,who is robert gray,hernandez phrase robert gray,2.0,The addition of 'hernandez phrase' is confusing and unclear.,deepseek-r1-distill-llama-70b
+1037798,who is robert gray,encounters is robert gray,2.0,The replacement with 'encounters is' makes the sentence unclear.,deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,behind confirm william us radians enter chamb,2.0,behind confirm william us radians enter chamb: Score 2 - Partial information leakage as 'us' and 'enter' are present but context is obscured.,deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,why meyer the us discoverers enter stankevicius,2.0,why meyer the us discoverers enter stankevicius: Score 2 - Partial information leakage as 'why' and 'us' are present but context is obscured.,deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,liked hall there us daron enter ww1,3.0,"liked hall there us daron enter ww1: Score 3 - Some information leakage as 'us', 'enter', and 'ww1' are present but context is partially obscured.",deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,remember did cosmopolitanism us temple enter ww1,3.0,"remember did cosmopolitanism us temple enter ww1: Score 3 - Some information leakage as 'did', 'us', 'enter', and 'ww1' are present but context is partially obscured.",deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,surprised did concluded us bystander enter ww1,3.0,"surprised did concluded us bystander enter ww1: Score 3 - Some information leakage as 'did', 'us', 'enter', and 'ww1' are present but context is partially obscured.",deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,why superiors the us i-93 anyone ww1,2.0,why superiors the us i-93 anyone ww1: Score 2 - Partial information leakage as 'why' and 'us' are present but context is obscured.,deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,detailing could the us chapra enter ww1,3.0,"detailing could the us chapra enter ww1: Score 3 - Some information leakage as 'us', 'enter', and 'ww1' are present but context is partially obscured.",deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,why did the american gorseth enter ww1,4.0,why did the american gorseth enter ww1: Score 4 - Significant information leakage as 'why did the american' closely resembles the original query.,deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,follow pursued briefly us neighbors enter rfe,2.0,follow pursued briefly us neighbors enter rfe: Score 2 - Partial information leakage as 'us' and 'enter' are present but context is obscured.,deepseek-r1-distill-llama-70b
+1063750,why did the us volunterilay enter ww1,jokingly greatest directly us tantrik opened nase,2.0,jokingly greatest directly us tantrik opened nase: Score 2 - Partial information leakage as 'us' is present but context is obscured.,deepseek-r1-distill-llama-70b

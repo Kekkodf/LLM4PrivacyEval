@@ -1,0 +1,500 @@
+id,text,obfuscatedText,score,justification,model
+16,aaa proteins,standings proteins,1.0,"'standings proteins' does not retain any specific information from 'aaa proteins', so it scores 1.",deepseek-r1-distill-llama-70b
+16,aaa proteins,schork proteins,1.0,"'schork proteins' does not retain any specific information from 'aaa proteins', so it scores 1.",deepseek-r1-distill-llama-70b
+16,aaa proteins,begrand small,1.0,"'begrand small' does not retain any specific information from 'aaa proteins', so it scores 1.",deepseek-r1-distill-llama-70b
+16,aaa proteins,bba proteins,2.0,"'bba proteins' retains some information but not specific to 'aaa proteins', so it scores 2.",deepseek-r1-distill-llama-70b
+16,aaa proteins,aaa chromosomal,3.0,"'aaa chromosomal' partially retains 'aaa', so it scores 3.",deepseek-r1-distill-llama-70b
+16,aaa proteins,aaa permutations,3.0,"'aaa permutations' partially retains 'aaa', so it scores 3.",deepseek-r1-distill-llama-70b
+16,aaa proteins,nichter proteins,1.0,"'nichter proteins' does not retain any specific information from 'aaa proteins', so it scores 1.",deepseek-r1-distill-llama-70b
+16,aaa proteins,intermountain proteins,1.0,"'intermountain proteins' does not retain any specific information from 'aaa proteins', so it scores 1.",deepseek-r1-distill-llama-70b
+16,aaa proteins,traci pores,1.0,"'traci pores' does not retain any specific information from 'aaa proteins', so it scores 1.",deepseek-r1-distill-llama-70b
+16,aaa proteins,aaa proteins,5.0,"'aaa proteins' retains all information from the original text, so it scores 5.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,antigens tantawi judgement semiclassical granules respiration,3.0,Contains 'antigens' but lacks 'lung epithelial cells' and adds unrelated terms.,deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,antigens olusegun supported lung epithelial calcium,4.0,"Includes both 'antigens' and 'lung epithelial', making it more revealing.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,pizango marion by disparities epithelial cells,3.0,"Only 'epithelial cells' is present, partial information.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,chea incomes micklethwait lung epithelial absorption,4.0,"Includes 'lung epithelial', significant leakage.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,antigens italians cbrc lung aafl cells,3.0,Contains 'antigens' and 'lung' but not 'epithelial cells'.,deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,expreso allegiance mollison lung epithelial cells,5.0,"Fully includes 'lung epithelial cells', complete leakage.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,153.9 voiced rudolph lung underbody cells,3.0,"Includes 'lung' and 'cells', partial match.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,antigens link beat incurable donje cells,3.0,Contains 'antigens' but not 'lung epithelial cells'.,deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,encephalitis gratitude by lung epithelial rays,3.0,"Includes 'lung epithelial', partial match.",deepseek-r1-distill-llama-70b
+40,antigens expressed by lung epithelial cells,antigens vice jantjes lung khachmaz cells,3.0,"Contains 'antigens' and 'lung', partial match.",deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,cominges right rash,1.0,No leakage; no relation to original terms.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,rc5 three badami,1.0,No leakage; unrelated words.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,atpase dashboard diachronic,3.0,Partial leakage; 'atpase' is present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,endowed serves apoptosis,5.0,Complete leakage; 'apoptosis' is present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,atpase contortionists barq,3.0,Partial leakage; 'atpase' is present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,atpase suit d-mi,3.0,Partial leakage; 'atpase' is present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,atpase attendance apoptosis,5.0,Complete leakage; both 'atpase' and 'apoptosis' are present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,atpase with physiological,3.0,Partial leakage; 'atpase' is present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,büyük methodologies apoptosis,5.0,Complete leakage; 'apoptosis' is present.,deepseek-r1-distill-llama-70b
+15,atpase and apoptosis,atpase steam p53,3.0,Partial leakage; 'atpase' is present.,deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,carcinogenesis challenged hairless mice,5.0,"Contains both 'carcinogenesis' and 'hairless mice', indicating complete information leakage.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,amiata tanzanian bernal giorno,1.0,No relevant information from the original text is present.,deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,tectonics wedderburn hairless pigs,3.0,"Contains 'hairless' but not 'carcinogenesis', indicating partial leakage.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,searches mumbi hairless marneuli,3.0,"Contains 'hairless' but not 'carcinogenesis', indicating partial leakage.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,1.775 our unclothed primates,2.0,"Contains 'unclothed', which could relate to 'hairless', but no direct mention of 'carcinogenesis'.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,hammerschmidt and hairless tew,3.0,"Contains 'hairless' but not 'carcinogenesis', indicating partial leakage.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,7.4-acre beards whistling mice,3.0,"Contains 'mice' but not 'hairless' or 'carcinogenesis', indicating partial leakage.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,rhoose corner mccorkle insect,1.0,No relevant information from the original text is present.,deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,sjöström ready hairless freshwater,3.0,"Contains 'hairless' but not 'carcinogenesis', indicating partial leakage.",deepseek-r1-distill-llama-70b
+11,carcinogenesis and hairless mice,semi-documentary formula_18 whooping mice,3.0,"Contains 'mice' but not 'hairless' or 'carcinogenesis', indicating partial leakage.",deepseek-r1-distill-llama-70b
+25,cause of scleroderma,justice 1948 kocher,1.0, justice 1948 kocher: no relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,advertisement directorial 9.325,1.0, advertisement directorial 9.325: no relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,peoples expression huts,1.0, peoples expression huts: no relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,varejao preparedness scleroderma,2.0," varejao preparedness scleroderma: contains the word 'scleroderma', which is present in the original text but no direct 'cause'.",deepseek-r1-distill-llama-70b
+25,cause of scleroderma,cause heracles jozami,2.0, cause heracles jozami: contains 'cause' but no 'scleroderma'.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,enmity of agraphia,1.0, enmity of agraphia: no relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,cause community scleroderma,3.0," cause community scleroderma: contains both 'cause' and 'scleroderma', indicating potential information leakage.",deepseek-r1-distill-llama-70b
+25,cause of scleroderma,cause cove shiina,2.0, cause cove shiina: contains 'cause' but no 'scleroderma'.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,bresnahan gns vulvar,1.0, bresnahan gns vulvar: no relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+25,cause of scleroderma,motive scotland untallied,1.0, motive scotland untallied: no relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,estimate athletics promoters 26sec jugovic nutmeg lahad,1.0,estimate athletics promoters 26sec jugovic nutmeg lahad - No direct relation to the original text's context of genetic promoters.,deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,lefties argentine 33.00 lifestyle manu'a comment cumbrae,1.0,lefties argentine 33.00 lifestyle manu'a comment cumbrae - Unrelated to the original context.,deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,shp of yangzi jankulovski nnsa wallpaper pokemon,1.0,shp of yangzi jankulovski nnsa wallpaper pokemon - No relevance to genetic promoters or the genes mentioned.,deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,comparison increase original protect schaumburg families rovers,2.0,comparison increase original protect schaumburg families rovers - Mentions 'comparison' but lacks specifics about genetic promoters.,deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,i-195 colony faroon of hafetz burrell economically,1.0,"i-195 colony faroon of hafetz burrell economically - Unrelated terms, no connection to the original text.",deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,korakuen regionalligas choreograph drosophila frontrunner concordia consultative,1.0,"korakuen regionalligas choreograph drosophila frontrunner concordia consultative - Although 'drosophila' is related to genetics, it doesn't connect to the specific promoters.",deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,widest ajax snowstorm long ellerbe u-shaped swat,1.0,"widest ajax snowstorm long ellerbe u-shaped swat - Unrelated context, no mention of promoters or genes.",deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,"1,607 of chaperons of mil overseers 50-foot",1.0,"1,607 of chaperons of mil overseers 50-foot - No connection to the original text's subject matter.",deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,comparing destiny beggared of hidden conservatives dalya,2.0,comparing destiny beggared of hidden conservatives dalya - 'Comparing' is present but without context of genetic promoters.,deepseek-r1-distill-llama-70b
+19,comparison of promoters of gal1 and suc1,domestic rotulorum sbsi ultra masseuses both godfather,1.0,domestic rotulorum sbsi ultra masseuses both godfather - No relevance to the original text.,deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,"khattabi sounds 4.5-5 gaudapada 547,000 develop detracted chronically",1.0,"The text contains unrelated words and numbers, making it impossible to discern any meaningful information related to the original topic.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,correlation between dna pierce goin vocals globally tuberculosis,2.0,"The text includes 'dna' and 'correlation,' but the context is obscured with unrelated terms like 'pierce goin vocals globally tuberculosis,' making it hard to infer the original meaning.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,interconnect between dna rubiks pathway scene skin tenderness,3.0,"The text contains 'dna,' 'pathway,' and 'skin,' but the context is distorted with terms like 'rubiks' and 'scene,' reducing information leakage.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,correlation between coiled eat twigg 2005 veld cancer,3.0,"The text includes 'coiled' and 'cancer,' but the context is unclear due to terms like 'twigg 2005 veld,' reducing information leakage.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,hylton two mtdna repair roughest winners skin fast,3.0,"The text contains 'mtdna repair' and 'skin,' but the context is obscured with terms like 'roughest winners,' making it hard to infer the original meaning.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,explanation ticket gene scratched velour rounds cloned cancer,3.0,"The text includes 'gene,' 'cancer,' and 'cloned,' but the context is unclear due to terms like 'ticket scratched velour rounds,' reducing information leakage.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,correlation fencing dna reorganization millikan moldova skin cancer,4.0,"The text contains 'dna reorganization' and 'skin cancer,' making it somewhat clear but still with some distortion.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,bottom-up end dna $ pathways popular baluchi comparative,3.0,"The text includes 'dna pathways,' but the context is obscured with terms like 'bottom-up end' and 'popular baluchi comparative,' reducing information leakage.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,commission between 108.50 retrofit three-year-olds witnesses skin treatment,3.0,"The text includes 'skin treatment,' but the context is unclear due to terms like '108.50 retrofit three-year-olds witnesses,' reducing information leakage.",deepseek-r1-distill-llama-70b
+8,correlation between dna repair pathways and skin cancer,estriol ignaz dna reduce conduction wireless beached surgery,3.0,"The text contains 'dna' and 'surgery,' but the context is obscured with terms like 'estriol ignaz reduce conduction wireless beached,' making it hard to infer the original meaning.",deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,pavic armour liftoff grossfeld exhaustion,1.0,No leakage as none of the original terms are present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,gametes repair viet oxidative freestyler,4.0,Significant leakage as 'repair' and 'oxidative' are present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,60-page repair siblings oxidative stress,5.0,"Complete leakage as 'repair', 'oxidative', and 'stress' are present.",deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,totty barge force expositions stress,2.0,Minimal leakage as only 'stress' is present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,dna remodel macaroni ready-to-fly sprains,3.0,Some leakage as 'dna' is present but context is altered.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,molecule dans such oxidative orgasmic,2.0,Minimal leakage as only 'oxidative' is present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,dna repairs from oxidative adar,5.0,Complete leakage as both 'dna' and 'oxidative' are present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,nail repair protohistory upgrading milestone,2.0,Minimal leakage as only 'repair' is present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,30-man repair sounding appearing foster,2.0,Minimal leakage as only 'repair' is present.,deepseek-r1-distill-llama-70b
+7,dna repair and oxidative stress,finds seven-speed dwelling automorphisms jangmi,1.0,No leakage as none of the original terms are present.,deepseek-r1-distill-llama-70b
+17,do1 antibody,waterhouse gene,1.0,waterhouse gene - No apparent connection to 'do1 antibody'.,deepseek-r1-distill-llama-70b
+17,do1 antibody,cio burghley,1.0,"cio burghley - Unrelated terms, no leakage.",deepseek-r1-distill-llama-70b
+17,do1 antibody,midterm antibody,3.0,midterm antibody - 'Antibody' is present but paired with 'midterm' which doesn't match 'do1'.,deepseek-r1-distill-llama-70b
+17,do1 antibody,trakya contamination,1.0,trakya contamination - No relation to the original text.,deepseek-r1-distill-llama-70b
+17,do1 antibody,pupate tunica,1.0,pupate tunica - No connection to 'do1 antibody'.,deepseek-r1-distill-llama-70b
+17,do1 antibody,programmer pirg,1.0,programmer pirg - Unrelated to the original text.,deepseek-r1-distill-llama-70b
+17,do1 antibody,whitest theodolite,1.0,whitest theodolite - No connection to 'do1 antibody'.,deepseek-r1-distill-llama-70b
+17,do1 antibody,akerlof albumin,2.0,"akerlof albumin - 'Albumin' is a protein, similar category to 'antibody', but not direct leakage.",deepseek-r1-distill-llama-70b
+17,do1 antibody,tue twinned,1.0,tue twinned - No connection to 'do1 antibody'.,deepseek-r1-distill-llama-70b
+17,do1 antibody,rashleigh visas,1.0,"rashleigh visas - Unrelated terms, no leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,settlement staines but wine mahala created patuxent cancers,1.0,No relevant terms from the original text; no information leakage.,deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,zeqiri denis regulation evolutionary talabani battles elite adolescent,3.0,"Contains 'regulation', which is in the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,legal sentence water-based covering ugrumov spun olmert methylated,1.0,No relevant terms from the original text; no information leakage.,deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,unacceptable or pena terms 25.87 occur hocus cancers,2.0,"Contains 'cancers', which is in the original text, indicating minimal information leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,"downregulated 3,790 immunity across handfield controls wauters cancers",3.0,"Contains 'downregulated', which relates to 'expression' or 'regulation', indicating some information leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,expression plot proponents freed asma os gwot cancers,4.0,"Contains both 'expression' and 'cancers', which are in the original text, indicating significant information leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,sunny insurers epa columbia cip have toured exculpatory,1.0,No relevant terms from the original text; no information leakage.,deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,client spending regulation schoolhouse nawat qualifier taxi sahara,3.0,"Contains 'regulation', which is in the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,expression inject regulation of pmc 1996 jianyin phish,4.0,"Contains both 'expression' and 'regulation', which are in the original text, indicating significant information leakage.",deepseek-r1-distill-llama-70b
+14,expression or regulation of tgfb in hnscc cancers,dimension use theory property dillinger a-shaq insinger cystic,1.0,No relevant terms from the original text; no information leakage.,deepseek-r1-distill-llama-70b
+6,fancd2,endorsee,2.0,endorsee - Score 2: The word shares some letters but doesn't reveal specific information about 'fancd2'.,deepseek-r1-distill-llama-70b
+6,fancd2,irena,2.0,"irena - Score 2: Similar length and some letters overlap, but no direct information leakage.",deepseek-r1-distill-llama-70b
+6,fancd2,skygazers,1.0,skygazers - Score 1: No significant similarity to 'fancd2'.,deepseek-r1-distill-llama-70b
+6,fancd2,anang,2.0,anang - Score 2: Structure and letters somewhat similar but no direct info.,deepseek-r1-distill-llama-70b
+6,fancd2,starched,1.0,starched - Score 1: No significant similarity to 'fancd2'.,deepseek-r1-distill-llama-70b
+6,fancd2,chemnitz,2.0,chemnitz - Score 2: Shares some letters but no direct info.,deepseek-r1-distill-llama-70b
+6,fancd2,lamin,2.0,lamin - Score 2: Similar letters but doesn't reveal specific info.,deepseek-r1-distill-llama-70b
+6,fancd2,figini,2.0,figini - Score 2: Some letters similar but no info leakage.,deepseek-r1-distill-llama-70b
+6,fancd2,rohman,2.0,rohman - Score 2: Shares some letters but doesn't leak specific info.,deepseek-r1-distill-llama-70b
+6,fancd2,pirs,1.0,pirs - Score 1: Short and no significant similarity.,deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,landes team roughly,1.0,"The obfuscated texts do not contain any information related to ferroportin-1 or humans, thus no information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,teachout hub vaishnava,1.0,"The obfuscated texts do not contain any information related to ferroportin-1 or humans, thus no information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,bakersfield gay pipo,1.0,"The obfuscated texts do not contain any information related to ferroportin-1 or humans, thus no information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,shōgun delisted humans,2.0,"The obfuscated texts contain the word 'humans', which partially relates to the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,stoel deposition humans,2.0,"The obfuscated texts contain the word 'humans', which partially relates to the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,extirpated surplus dissolution,1.0,"The obfuscated texts do not contain any information related to ferroportin-1 or humans, thus no information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,wherry miyagi humans,2.0,"The obfuscated texts contain the word 'humans', which partially relates to the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,cornea pyrénées-orientales humans,2.0,"The obfuscated texts contain the word 'humans', which partially relates to the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,shed united co-sanctioned,1.0,"The obfuscated texts do not contain any information related to ferroportin-1 or humans, thus no information leakage.",deepseek-r1-distill-llama-70b
+1,ferroportin-1 in humans,masako meech human,2.0,"The obfuscated texts contain the word 'human', which partially relates to the original text, indicating some information leakage.",deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,applications internally educates peaceful where giorgione ornament contractures,1.0,No leakage of original content.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,function customer chenār gypsy seems cascades written pillette,3.0,Partial leakage due to 'function' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,function outright pathognomonic unaccounted memorial demolition of twayne,3.0,Partial leakage due to 'function' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,thus cccc nantie victory eagerly process resistance prophase,2.0,Minimal leakage due to 'process' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,cytoplasm dash iciss french khelil process lurching cytokinesis,5.0,Complete leakage due to 'cytokinesis' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,expression of nytsyn sports line reviewing silencing cytokinesis,5.0,Complete leakage due to 'cytokinesis' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,function liturgical accoyer field national engineering weekly andreini,3.0,Partial leakage due to 'function' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,function snakes seahawks outside active streamlined accusing cytokinesis,5.0,Complete leakage due to 'function' and 'cytokinesis' keywords.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,function pinnacle hdcp expo announced process length corbyn,3.0,Partial leakage due to 'function' keyword.,deepseek-r1-distill-llama-70b
+26,function of bub2/bfa1 in the process of cytokinesis,function x20 schmalensee in mountain limited holidaymakers anterograde,3.0,Partial leakage due to 'function' keyword.,deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,gene t.i. intermediary cost kidney neurons mice,3.0,"Score: 3: The obfuscated text includes 'gene', 'kidney', and 'mice' but replaces 'expression profiles' with 't.i. intermediary cost' and adds 'neurons', which partially reveals the original information.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,"mosaic borders profiles 1,000 vo2 may transplants",2.0,"Score: 2: The obfuscated text includes 'profiles' but does not include 'gene' or 'kidney' and adds unrelated terms like 'mosaic borders' and 'transplants', indicating minimal leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,altogether deed profiles back-up pacemaker ran mice,3.0,"Score: 3: The obfuscated text includes 'profiles' and 'mice' but does not include 'gene' or 'kidney' and adds unrelated terms like 'back-up pacemaker', indicating partial leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,smiley homosexuality ilia platform renal abstract mice,4.0,"Score: 4: The obfuscated text includes 'renal' (related to kidney) and 'abstract' (related to profiles) but adds unrelated terms like 'smiley homosexuality ilia platform', indicating significant leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,gene klestil soulages ad fistula round mice,4.0,"Score: 4: The obfuscated text includes 'gene', 'kidney', and 'fistula' (related to profiles) but adds unrelated terms like 'klestil soulages ad', indicating significant leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,failaka vests ngala stafford kidney died mice,3.0,"Score: 3: The obfuscated text includes 'kidney' and 'mice' but does not include 'gene' or 'profiles' and adds unrelated terms like 'failaka vests ngala stafford', indicating partial leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,gene cover profiles 1980-88 zacatecas flanders pythons,4.0,"Score: 4: The obfuscated text includes 'gene' and 'profiles' but adds unrelated terms like '1980-88 zacatecas flanders pythons', indicating significant leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,gene moment andresito are 48.32 sensenbrenner flanner,2.0,"Score: 2: The obfuscated text includes 'gene' but does not include 'profiles' or 'kidney' and adds unrelated terms like 'moment andresito are 48.32 sensenbrenner flanner', indicating minimal leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,gene smile kovács for kidney teach horribly,4.0,"Score: 4: The obfuscated text includes 'gene' and 'kidney' but does not include 'profiles' and adds unrelated terms like 'smile kovács for teach horribly', indicating significant leakage.",deepseek-r1-distill-llama-70b
+4,gene expression profiles for kidney in mice,gene bioscience navstar public kidney lgov mice,4.0,"Score: 4: The obfuscated text includes 'gene', 'kidney', and 'bioscience' (related to profiles) but adds unrelated terms like 'navstar public lgov', indicating significant leakage.",deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,lobe products boylston africanization teams rah-66 embedding boris,1.0,1: The obfuscated text does not contain any relevant information from the original text.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,regulating selling products tarlo conclusive filmmaker arsenate esau,1.0,1: The obfuscated text does not contain any relevant information from the original text.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,mouse agv hemisphere bjarte topolanek to tishman decapitations,1.0,1: The obfuscated text does not contain any relevant information from the original text.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,biogeographic tzekos apparent margarida significant keys lautenschlager survival,3.0,3: The word 'survival' is present but lacks context related to fungal products.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,dealbook foods innovation kofun collection otters fungal aid,2.0,2: The word 'fungal' is present but lacks specific context related to products or gene.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,psp liquor it graysville infrastructure stv fungal pavle,2.0,2: The word 'fungal' is present but lacks specific context related to products or gene.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,gene members rights meherrin important workforce haarder verrières,2.0,2: The word 'gene' and 'important' are present but lack context related to products or fungal survival.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,steere products recent wollstonecraft secured knock fungal 10-pound,3.0,3: The words 'products' and 'fungal' are present but lack specific context related to gene or survival.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,"lenition 8,900 saw overpoweringly occasions tamil gaseous survival",1.0,1: The obfuscated text does not contain any relevant information from the original text.,deepseek-r1-distill-llama-70b
+34,gene products of cryptococcus important to fungal survival,bone importing endorse pendulous chickadees pounds unscrupulous macdonnells,1.0,1: The obfuscated text does not contain any relevant information from the original text.,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,kernel 6:13 mice,2.0,Partial leakage: 'mice' is present but 'transgenic' is absent,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,baxendale grass canadian-built,1.0,No leakage: no relevant terms from original text,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,unbleached transgenic devastators,2.0,Partial leakage: 'transgenic' is present but 'mice' is absent,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,gangnam prokopowicz naturals,1.0,No leakage: no relevant terms from original text,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,cachapoal transgenic mice,5.0,Complete leakage: both 'transgenic' and 'mice' are present,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,moderately saham piot,1.0,No leakage: no relevant terms from original text,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,incitements transgenic sedatives,2.0,Partial leakage: 'transgenic' is present but 'mice' is absent,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,ethylene canola binding,1.0,No leakage: no relevant terms from original text,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,avonmouth seed mice,2.0,Partial leakage: 'mice' is present but 'transgenic' is absent,deepseek-r1-distill-llama-70b
+2,generating transgenic mice,megawatt zooxanthellae haimoud,1.0,No leakage: no relevant terms from original text,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,farmed línea by cryosurgery coasted,1.0,No relevant terms from the original text are present.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,genes pompons strict chromosome codogno,3.0,Contains 'genes' and 'chromosome' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,oncogenes pivo by chromosome translocations,4.0,"Contains 'oncogenes', 'chromosome', and 'translocations'.",deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,mancienne confédération opponents chromosome agence,2.0,Contains 'chromosome' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,genes self-critical boots chromosome plectrum,3.0,Contains 'genes' and 'chromosome' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,genes altered bairns crime translocations,5.0,"Contains 'genes altered' and 'translocations', very similar to original.",deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,genes flocculation kniazkov chromosome faustino,3.0,Contains 'genes' and 'chromosome' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,lamont immeasurably through chromosome jinmen,2.0,Contains 'chromosome' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,cells rewritten bands selfridge protectionist,1.0,No relevant terms from the original text are present.,deepseek-r1-distill-llama-70b
+42,genes altered by chromosome translocations,genes speculation beaux chromosome bambous,3.0,Contains 'genes' and 'chromosome' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,unmask rampant prism boente,1.0,No apparent connection to genes or smad4,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,andré regulated dioceses williamstown,3.0,Partial leakage due to 'regulated' but no mention of genes or smad4,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,secreting regulated wed. tunggal,3.0,"Presence of 'regulated' and a possible biological term, but unclear connection",deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,nomenclatural venues by seiji,1.0,No relevant terms related to the original text,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,kral vivo by liberalised,1.0,No connection to the original text,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,proteins nandrolone irish almudena,4.0,"Presence of 'proteins' and a related compound, but no direct mention of smad4",deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,chebeya heme by nafez,2.0,"Vague biological term, but no direct leakage",deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,tamisuke regulated maredudd cataclysm,3.0,Presence of 'regulated' but no other relevant terms,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,97.51 guatemalans soviet owney,1.0,No relevant information,deepseek-r1-distill-llama-70b
+12,genes regulated by smad4,assemble blacktown norwegian-british-swedish trail,1.0,No connection to genes or smad4,deepseek-r1-distill-llama-70b
+18,gis4,unstinted,1.0,The obfuscated text 'unstinted' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,fatma,1.0,The obfuscated text 'fatma' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,38-month,1.0,The obfuscated text '38-month' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,nast,1.0,The obfuscated text 'nast' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,proprietorships,1.0,The obfuscated text 'proprietorships' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,narbona,1.0,The obfuscated text 'narbona' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,0-5-2,1.0,The obfuscated text '0-5-2' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,ob,1.0,The obfuscated text 'ob' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,logjam,1.0,The obfuscated text 'logjam' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+18,gis4,specter,1.0,The obfuscated text 'specter' does not reveal any information about the original text 'gis4'.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,self-regulate increment gene indupa,2.0,'gene' is present but other terms are unrelated.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,kuras madson jerkins selfish,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,chandrika kandia pissarides sequence,3.0,'sequence' is present but other terms are unrelated.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,latifah infallible officer côtes-d'armor,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,warszawy rheumatism velarde sequence,2.0,'gene' is present but other terms are unrelated.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,persevere intra gene 117.65,2.0,'gene' is present but other terms are unrelated.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,aḩmadābād defensive gene credence,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,mowing slav french-speaking ammonites,4.0,'glyphosate' and 'feedbacks' are related.,deepseek-r1-distill-llama-70b
+49,glyphosate tolerance gene sequence,glyphosate arba feedbacks notation,3.0,'glyphosate' and 'gene' are present.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,human salvi proteolytic dilating where inhibitors,3.0,Some leakage: retains 'human' and 'inhibitors' but adds unrelated terms.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,human autry rishon reciprocating forward staphylococcus,2.0,Minimal leakage: retains 'human' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,humans e1 bcl-2 tsair keble cajas,4.0,Significant leakage: retains 'bcl-2' and 'humans'.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,nail gene bcl-2 silicon-based dung wataru,3.0,Some leakage: retains 'gene' and 'bcl-2'.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,hygiene gene inter-tribal pdt presley compos,2.0,Minimal leakage: retains 'gene'.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,human gene go-away tariceanu 40 enzyme,3.0,Some leakage: retains 'human' and 'gene'.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,anti- gene updrafts quavering kaeo inhibitors,3.0,Some leakage: retains 'gene' and 'inhibitors'.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,counsels 43-44 31.98 l'allegro manages inhibitors,2.0,Minimal leakage: retains 'inhibitors' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,noise gene nytrng antagonists dniester inhibitors,4.0,"Significant leakage: retains 'gene', 'antagonists', and 'inhibitors'.",deepseek-r1-distill-llama-70b
+47,human gene bcl-2 antagonists and inhibitors,human wanna kuji libretti actions pipelines,2.0,Minimal leakage: retains 'human' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,phasuk crucible miraculous regia goebel unc atoms,2.0,Some leakage due to 'unc',deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,inability eunos nsc c. meinung deterrence hedgehog,2.0,Minimal leakage due to 'c.',deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,conqueror acrylics than elizabeth rowe ice-hockey zollitsch,1.0,No leakage as all terms are unrelated,deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,human spal playoff c. 1/25 rudely genes,3.0,Some leakage due to 'human' and 'genes',deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,freedoms synsam folding tinder elegans conakry genes,4.0,Significant leakage due to 'elegans' and 'genes',deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,human homologues of york scintillator castoreum genes,5.0,Complete leakage as structure and some terms match,deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,principles denotational of gary nematode ronin sanofi,2.0,Some leakage due to 'nematode',deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,human excellencies lasts c. bovis unc genes,3.0,"Some leakage due to 'human', 'c.', and 'unc'",deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,chandrika homologues shelves c. bombsights turco genes,2.0,Some leakage due to 'homologues' and 'c.',deepseek-r1-distill-llama-70b
+48,human homologues of c. elegans unc genes,serra wenman considering c. deceiver usc 6.50,2.0,Minimal leakage due to 'c.',deepseek-r1-distill-llama-70b
+39,hypertension,eggs,1.0,No information leakage as 'eggs' is unrelated to 'hypertension'.,deepseek-r1-distill-llama-70b
+39,hypertension,hypertension,5.0,Complete information leakage as 'hypertension' is identical to the original text.,deepseek-r1-distill-llama-70b
+39,hypertension,hypertension,5.0,Complete information leakage as 'hypertension' is identical to the original text.,deepseek-r1-distill-llama-70b
+39,hypertension,atherosclerosis,3.0,Partial information leakage as 'atherosclerosis' is related to cardiovascular diseases like hypertension.,deepseek-r1-distill-llama-70b
+39,hypertension,aging,3.0,Partial information leakage as 'aging' is a risk factor for hypertension.,deepseek-r1-distill-llama-70b
+39,hypertension,hypertension,5.0,Complete information leakage as 'hypertension' is identical to the original text.,deepseek-r1-distill-llama-70b
+39,hypertension,dizziness,3.0,Partial information leakage as 'dizziness' can be a symptom of hypertension.,deepseek-r1-distill-llama-70b
+39,hypertension,schizophrenia,1.0,No information leakage as 'schizophrenia' is unrelated to 'hypertension'.,deepseek-r1-distill-llama-70b
+39,hypertension,hypertension,5.0,Complete information leakage as 'hypertension' is identical to the original text.,deepseek-r1-distill-llama-70b
+39,hypertension,hypertension,5.0,Complete information leakage as 'hypertension' is identical to the original text.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,rotational conditioning protein basmanny kills wilbur krutch,2.0,"The word 'protein' is present, indicating partial information leakage.",deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,blocher warmed protein foreigners car e. h&m,3.0,"Contains 'warmed' and 'protein', suggesting more leakage.",deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,sherds humid 8.50 hither diplomacy ronald coli,2.0,Partial relevance with 'humid' and 'coli'.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,enormously temperature protein expression fly shikigami malbec,4.0,Key terms present indicate significant leakage.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,snapper temperature protein proudly anisotropic e. cow,3.0,'Temperature' and 'protein' with 'e.' hinting at E. coli.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,futures temperature protein allas in examined coli,4.0,Significant leakage with relevant terms present.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,ag 57kg protein monohulls sponges e. coli,5.0,Direct mention of key terms indicating complete leakage.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,relatively temperature sodium expression seminal raped coli,4.0,Significant leakage with relevant terms present.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,efficient mszczonów denuclearize values provincial s. coli,2.0,Partial relevance with 'coli' present.,deepseek-r1-distill-llama-70b
+50,low temperature protein expression in e. coli,disparities crease protein expression in successfully entorhinal,2.0,Partial leakage with 'protein' and 'expression'.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,mental yeltsin jolyon,2.0,Partial leakage as 'mental' is retained but context is altered.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,mental boxed 2.20,2.0,Partial leakage as 'mental' is retained but context is altered.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,mental public gofa,2.0,Partial leakage as 'mental' is retained but context is altered.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,certainty customers soils,1.0,No leakage as no relevant terms are present.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,mental health kyonggi,4.0,Significant leakage as both 'mental' and 'health' are present.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,mental nutrition to-60,2.0,Partial leakage as 'mental' is retained but context is altered.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,bond acreage 4-for-8,1.0,No leakage as no relevant terms are present.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,albright address piniella,1.0,No leakage as no relevant terms are present.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,revisionism publish rwandan,1.0,No leakage as no relevant terms are present.,deepseek-r1-distill-llama-70b
+45,mental health wellness-1,outpatient medicines nkk,2.0,Minimal leakage as terms are related but not specific.,deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",aaahh mutant practice rights 53.2,3.0,"Contains 'mutant' which is part of the original text, indicating partial leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",impairment recaptures vainshtok consultative briceno,1.0,"No relevant words from the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",kaleida phrase battalions preachers acconci,1.0,"No relevant words from the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",yeti foley ascarrunz assurance al-shibh,1.0,"No relevant words from the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",noordin mutant lavizan he countrywomen,3.0,"Contains 'mutant' which is part of the original text, indicating partial leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",pert superhuman inclusive physical pomerania-wolgast,1.0,"No relevant words from the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",mid-upper parana carcharodontosaurus rift kumārajīva,1.0,"No relevant words from the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",minch mutant sachsenring war daldry,3.0,"Contains 'mutant' which is part of the original text, indicating partial leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",sázavou morita mboma enterprises bydgoszcz,1.0,"No relevant words from the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+33,"mice, mutant strains, and histoplasmosis",pauw serialization 500-per achieve histoplasmosis,5.0,"Contains 'histoplasmosis' which is part of the original text, indicating complete leakage.",deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),"12-foot 103,500 oriental normal maturer",1.0,No information from the original text is present.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),squirrel peptidoglycan initiatives antigens middlegame,3.0,Partial leakage due to the presence of 'peptidoglycan' but with unrelated context.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),impossible peptidoglycan recognition proteins plop,4.0,Key terms from the original are present but with some distortion.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),wired platelets 43-4 elongation nore,1.0,No information from the original is present.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),genes peptidoglycan nnp proteins mizi,3.0,Partial leakage with key terms but in a different context.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan achievements antibodies 1960-63,4.0,Key terms are present with some contextual clues.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),synthetic peptidoglycan recognition proteins român,4.0,"Key terms are present, but with additional descriptors.",deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),mouse praslin indication proteins vogl,3.0,Partial leakage with some key terms but mostly unrelated context.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),lennard peptidoglycan paycheck proteins sizes,3.0,Partial leakage with key terms but with unrelated words.,deepseek-r1-distill-llama-70b
+24,mouse peptidoglycan recognition proteins (pgrp),mouse apoptotic recognition arrays obua,2.0,Some key terms but overall different context and unclear additions.,deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,gene disciplinary string cystic fibrosis conductance furnari cell,4.0,"Contains 'cystic fibrosis' and 'conductance', which are key terms from the original text.",deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,induced patriotic final developmental shover conductance marine gene,3.0,Includes 'conductance' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,decay within temporarily zsofia piscis capacitance itv gene,2.0,Contains 'gene' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,chironomidae levy the fibrosis honoré gruppe regulator e.,4.0,"Includes 'fibrosis' and 'regulator', which are key terms.",deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,staving england voted fibrosis chesil kinetic pinguin gene,4.0,"Contains 'fibrosis' and 'gene', which are key terms.",deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,azad texan earth proprioceptive subtypes conductance qwest gene,3.0,"Includes 'conductance' and 'gene', which are key terms.",deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,mutations airlift squarely ssri fibrosis toucher schlöndorff haqqani,5.0,"Contains 'mutations' and 'fibrosis', which are key terms.",deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,solvay table resurrection filters cystic latency mushy haute-vienne,2.0,Includes 'cystic' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,pearcy therapy marcum cystic readmissions odeon kalyna bohem,2.0,Contains 'cystic' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+41,mutations in the cystic fibrosis conductance regulator gene,mutations kraatz front spertus banfield euverte yatsenyuk gal,2.0,Includes 'mutations' but other terms are unrelated.,deepseek-r1-distill-llama-70b
+9,muty,supermodels,1.0,"The obfuscated text 'supermodels' shares no letters with 'muty', indicating minimal leakage.",deepseek-r1-distill-llama-70b
+9,muty,censure,2.0,"The obfuscated text 'censure' contains the letter 'u' from 'muty', indicating partial leakage.",deepseek-r1-distill-llama-70b
+9,muty,tressel,2.0,"The obfuscated text 'tressel' contains the letter 't' from 'muty', indicating partial leakage.",deepseek-r1-distill-llama-70b
+9,muty,pando,1.0,"The obfuscated text 'pando' shares no letters with 'muty', indicating no leakage.",deepseek-r1-distill-llama-70b
+9,muty,moyne,3.0,"The obfuscated text 'moyne' contains the letters 'm' and 'y' from 'muty', indicating partial leakage.",deepseek-r1-distill-llama-70b
+9,muty,squillari,2.0,"The obfuscated text 'squillari' contains the letter 'u' from 'muty', indicating partial leakage.",deepseek-r1-distill-llama-70b
+9,muty,scalps,1.0,"The obfuscated text 'scalps' shares no letters with 'muty', indicating no leakage.",deepseek-r1-distill-llama-70b
+9,muty,victrola,2.0,"The obfuscated text 'victrola' contains the letter 't' from 'muty', indicating partial leakage.",deepseek-r1-distill-llama-70b
+9,muty,bako,1.0,"The obfuscated text 'bako' shares no letters with 'muty', indicating no leakage.",deepseek-r1-distill-llama-70b
+9,muty,waker,1.0,"The obfuscated text 'waker' shares no letters with 'muty', indicating no leakage.",deepseek-r1-distill-llama-70b
+10,neil1,autocannon,2.0,"The word shares the letter 'n' with 'neil1, but no other letters, indicating minimal leakage.",deepseek-r1-distill-llama-70b
+10,neil1,coyotes,2.0,"Shares the letter 'e' which is a common vowel, minimal leakage.",deepseek-r1-distill-llama-70b
+10,neil1,nasty,3.0,"Starts with 'n' and shares 'a' and 't', but not enough to reveal much, some leakage.",deepseek-r1-distill-llama-70b
+10,neil1,pomor,1.0,"No letters in common, no leakage.",deepseek-r1-distill-llama-70b
+10,neil1,honolulu,3.0,"Contains 'n' and 'l' from 'neil1, some leakage.",deepseek-r1-distill-llama-70b
+10,neil1,chambers,2.0,"Shares 'e', minimal leakage.",deepseek-r1-distill-llama-70b
+10,neil1,lockyer,3.0,"Contains 'l' and 'e', some leakage.",deepseek-r1-distill-llama-70b
+10,neil1,verdonk,3.0,"Contains 'e' and 'n', some leakage.",deepseek-r1-distill-llama-70b
+10,neil1,ocelots,3.0,"Contains 'e' and 'l', some leakage.",deepseek-r1-distill-llama-70b
+10,neil1,zeist,4.0,"Contains 'e' and 'i', which are significant, higher leakage.",deepseek-r1-distill-llama-70b
+37,pam,gregg,1.0,No leakage; completely different,deepseek-r1-distill-llama-70b
+37,pam,shimura,1.0,No leakage; completely different,deepseek-r1-distill-llama-70b
+37,pam,pam,5.0,Complete leakage; identical,deepseek-r1-distill-llama-70b
+37,pam,lilan,1.0,No leakage; different name,deepseek-r1-distill-llama-70b
+37,pam,nurse,1.0,No leakage; unrelated term,deepseek-r1-distill-llama-70b
+37,pam,pam,5.0,Complete leakage; identical,deepseek-r1-distill-llama-70b
+37,pam,pam,5.0,Complete leakage; identical,deepseek-r1-distill-llama-70b
+37,pam,wilma,1.0,No leakage; different name,deepseek-r1-distill-llama-70b
+37,pam,knorr,1.0,No leakage; different term,deepseek-r1-distill-llama-70b
+37,pam,confesses,1.0,No leakage; unrelated verb,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,ansatz chorused candomblé mutations,2.0,contains 'mutations' which is part of the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,fleeting of mimura natche,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,crimean commuter natures kaari,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,http://nytsyn.com abolished mcgarrell kongens,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,beast workman horii mutations,2.0,contains 'mutations' which is part of the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,kinship leningrad hangouts protein,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,widescreen lithium-ion haidallah tissues,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,nmd of chinguacousy deletion,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,tornadic tehran amoraim genes,1.0,contains 'genes' which is related to biology but not specific,deepseek-r1-distill-llama-70b
+29,phenotypes of gyra mutations,art-2ndtake spaniards motorcoach wen,1.0,no apparent connection to the original text,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,hueytown roasters bewag computer-related fearing apoptosis cink autophagy priklopil jay,3.0,hueytown roasters bewag computer-related fearing apoptosis cink autophagy priklopil jay,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,33.30 changing function kubang jann apoptosis cabinet disobeying cell death,3.0,33.30 changing function kubang jann apoptosis cabinet disobeying cell death,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,solanaceae witnessed euphorically pountney distinct kusama neighbor musth cell death,2.0,solanaceae witnessed euphorically pountney distinct kusama neighbor musth cell death,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,hdr borrow function danzhou gallop apoptosis wales autophagy cell ribbentrop,5.0,hdr borrow function danzhou gallop apoptosis wales autophagy cell ribbentrop,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,transcription lacked function telegraphy underlying apoptosis mudslides microvilli cell profession,3.0,transcription lacked function telegraphy underlying apoptosis mudslides microvilli cell profession,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,pousada lapan characteristic taping main apoptosis asset plasticity wields convicted,3.0,pousada lapan characteristic taping main apoptosis asset plasticity wields convicted,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,methylene neurologist function strategic engineered erythroid dog darwinian leuchter death,2.0,methylene neurologist function strategic engineered erythroid dog darwinian leuchter death,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,68-61 presence type féin convergence hemolysis new autophagy cell imprisonment,3.0,68-61 presence type féin convergence hemolysis new autophagy cell imprisonment,deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,"33-story long amberley mobile 3,484 62.00 priti exhibitors malecon 90s",1.0,"33-story long amberley mobile 3,484 62.00 priti exhibitors malecon 90s",deepseek-r1-distill-llama-70b
+28,proteases that function in both apoptosis and autophagy cell death,enzyme lori function symbolic proponents avantha was undiplomatic adapter death,2.0,enzyme lori function symbolic proponents avantha was undiplomatic adapter death,deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,proteins workshops changeovers rio immaculate growth succeed ketumile,5.0,"The obfuscated text contains 'proteins' and 'growth', which are directly related to the original text.",deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,proteins energy trained rink dailies modest activity polymerase,3.0,The obfuscated text contains 'proteins' but lacks other key terms related to the original text.,deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,proteins gunbattles won remedy nerve 142.3 localisation pathway,5.0,"The obfuscated text contains 'proteins', 'nerve', and 'pathway', which are key terms from the original text.",deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,simpler latter 52-16 ōmiya this equal fest bacterial,1.0,The obfuscated text does not contain any terms related to the original text.,deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,hemagglutinin harvesting referendums buy bancroft laggard factor pathway,4.0,"The obfuscated text contains 'factor' and 'pathway', which are related to the original text.",deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,acids impropriety ashes professional paralysis spur controls contaminant,1.0,The obfuscated text does not contain any terms related to the original text.,deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,organisms u.s.-linked where orderings nerve hopman sober linx,2.0,"The obfuscated text contains 'nerve', which is a key term from the original text.",deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,proteins charged wef ovc nerve inflation factor blacket,5.0,"The obfuscated text contains 'proteins', 'nerve', and 'factor', which are key terms from the original text.",deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,gamma craftsmen bordello demands chinooks schwikert burgeoning tallying,1.0,The obfuscated text does not contain any terms related to the original text.,deepseek-r1-distill-llama-70b
+44,proteins involved in the nerve growth factor pathway,antigens timber 212 medical nerve sustained allende rnai,2.0,"The obfuscated text contains 'nerve', which is a key term from the original text.",deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,protocols chile -1.3 adrien mucus,3.0,Some leakage as 'protocols' is present but context is altered,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,bunnymen deadlocked layovers ioseliani projectionists,1.0,No leakage as no relevant terms are present,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,psms for hydrochloric ciu nuclei,4.0,Moderate leakage due to 'nuclei' and partial context,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,protocol year eight-game cell gt40,5.0,Complete leakage as 'protocol' and 'cell' are present,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,text safin yew battalion eeo,1.0,No leakage as no relevant terms are present,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,computer-aided worldnet 364-day pro bacteria,1.0,No leakage as no relevant terms are present,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,nns3 dlrs dissimilarity cell supergiants,2.0,Some leakage as 'cell' is present but context is changed,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,experiments gwangju pampering time-sharing nuclei,4.0,Moderate leakage due to 'nuclei' and partial context,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,protocols tanker isolating portuguese rolls-royce,5.0,Complete leakage as 'protocols' and 'isolating' are present,deepseek-r1-distill-llama-70b
+5,protocols for isolating cell nuclei,-2.3 donen brøndby c++ seaborgium,1.0,No leakage as no relevant terms are present,deepseek-r1-distill-llama-70b
+36,rab3a,surachai,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,mainella,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,duellists,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,noboa,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,vũ,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,90-pound,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,fpga,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,raw,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,pitchman,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+36,rab3a,herd,1.0,No apparent connection or leakage,deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,chainsaw rifle begun raiders willerson gene roxbury members,3.0,"'gene' and 'members' are present, indicating partial leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,sightedness targets of bill keighley advantage family cots,4.0,"'targets' and 'family' are present, indicating significant leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,regulatory licenciado oilfields care diets gene 1.2755 bbc,5.0,"'regulatory' and 'gene' are present, indicating complete leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,evade targets china ben-zvi hand-operated möbius miguel umass,3.0,"'targets' is present, indicating partial leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,capcom improprieties homily event najmuddin gene long-term weldon,3.0,"'gene' is present, indicating partial leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,hendrick closings campaigning guard kosan suffredini family legislative,2.0,"'family' is present, indicating minimal leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,mctaggart dryness skin angels gillham purlky peaked aiga,1.0,No relevant words from the original text.,deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,hydraulically landed referee the 115.77 gene family members,5.0,"'gene,' 'family,' and 'members' are present, indicating complete leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,agnelo workplace higher of unoccupied genes my crossings,3.0,"'genes' is present, indicating partial leakage.",deepseek-r1-distill-llama-70b
+30,regulatory targets of the nkx gene family members,"regulatory attack captain battlegrounds 1,230 gene estate families",5.0,"'regulatory' and 'gene' are present, indicating complete leakage.",deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,sincere responses sect glycerin family pashtun sign zehi friction single-stranded kvirkelia 301.5 photograph breaks,3.0,Some leakage with noise,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,arsenio dirlewanger discontinued p53 luciano sanctioned target agents damage icesheet aliev medallions dna hui,4.0,Significant leakage with context,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,"relative 343,000 course p53 exiled coffins cancel recommending frown single-stranded eyelashes double-stranded tests hindfoot",4.0,Significant leakage with noise,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,charted finding us p53 family vitriolic erupt jurors causing single-stranded geography double-stranded herrera gaza,4.0,Significant leakage with context,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,commemorations threatened defrauding p53 family bokan switch discussing abraham single-stranded versus intramuscular egg helzberg,3.0,Some leakage with noise,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,rodger immediate mixing p53 wamego lincolnshire cataract agents reign hoërskool 100.07 21.42 monster smiles,3.0,Some leakage with more noise,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,tend sinjai poets amyloid family preside jacques flowerpot halyburton nandigram point commutator toxicology črnomelj,1.0,No leakage,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,"relative islamic kimberley l10 burwash affiliated politicize rivets blood-horse vestfold aquarion 2,270 dna 7nb",2.0,Minimal leakage unclear context,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative refrain mask snitches terrible three-ring biblical wcvb-tv incursions paramilitaries tvb sarbanes subcommittee internship,2.0,Minimal leakage without context,deepseek-r1-distill-llama-70b
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,"1-to-1 sparked child ldl scotland members luiz agents backups bulus 20,000-a chang-ho penitentiary (626)",3.0,Some leakage with noise,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,sovereign ensure tsunami sixers,1.0,The obfuscated text does not contain any information related to the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,103-101 bunt largely compression,1.0,The obfuscated text does not contain any information related to the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,2kg factors liye stroke,2.0,The obfuscated text partially retains some words but loses the context and meaning of the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,overall worthlessness further stroke,3.0,The obfuscated text partially retains some words but loses the context and meaning of the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,spitzer under-23s vying golfer,1.0,The obfuscated text does not contain any information related to the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,risk nscsa for stroke,4.0,The obfuscated text retains most of the information from the original text but with some distortion.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,deathrock factors 29 stroke,3.0,The obfuscated text partially retains some words but loses the context and meaning of the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,positive factors replacement lutetium,2.0,The obfuscated text partially retains some words but loses the context and meaning of the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,sales affecting transpac kane,1.0,The obfuscated text does not contain any information related to the original text.,deepseek-r1-distill-llama-70b
+38,risk factors for stroke,mean grandstands electric eddery,1.0,The obfuscated text does not contain any information related to the original text.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,assumes lekima cagomez faltering counter-terrorism,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,american strauss raho problems motif,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,plays traveled autophagy basin apoptosis,5.0,"Contains both 'autophagy' and 'apoptosis', directly related to the original text.",deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,a birch magus 147 apoptosis,3.0,Contains 'apoptosis' but lacks 'autophagy' and context.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,acting sher phyongan this necrosis,3.0,Contains 'apoptosis' but lacks 'autophagy' and context.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,roles platoon eroglu luxembourg apoptosis,3.0,Contains 'apoptosis' but lacks 'autophagy' and context.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,theory rohr 205-million regulars apoptosis,3.0,Contains 'apoptosis' but lacks 'autophagy' and context.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,role many autophagy majestic 33.46,5.0,"Contains 'autophagy' and mentions its role, related to the original text.",deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,academia women mechanoreceptors contesting ashkan,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+27,role of autophagy in apoptosis,plots professor miraculous in savannas,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,protecting lay ivankovic urban mccowan in coinstar recchi shf puncture,1.0,No leakage of original information,deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,hebron afflicting nemecek myself chiangs in finitary players herbarium damage,2.0,Partial mention of 'damage',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,role achieved cokes truck aghor critics fukutoshin u.n. dna racecar,3.0,Partial leakage with 'role' and 'dna',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,role edith hide-and-seek marzipan impanel extensively shoestring defense embryo earn,2.0,Partial mention of 'role',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,role swans henneberger spawned echter sainsbury aquarian 13:1 dna thoros,3.0,Partial leakage with 'role' and 'dna',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,task smtp 3.5-percent broodmares steenbergen primaries altercations marion extinct damage,2.0,Partial mention of 'damage',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,emmons website hourslong escalated q2 front variables 23.10 dna kdom,3.0,Partial leakage with 'dna',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,role magnets euro2 derrick anthophyllite areas 1983-87 pick penchala damage,2.0,Partial mention of 'role' and 'damage',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,fast of samudra fittings kassebaum sea lennert northwestern sewn damage,2.0,Partial mention of 'damage',deepseek-r1-distill-llama-70b
+21,role of p63 and p73 in relation to dna damage,renger accomplishment .468 nosey 8-for-12 quaestor 256-megabit obamacare banks damage,2.0,Partial mention of 'damage',deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,connection informatics nhs shakedown herewith distributing light,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,giving tax informa telstra hummon physiotherapy dust,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,role oily qun dove angiogenesis posted differences,3.0,"Contains 'role' and 'angiogenesis', but not 'tgfb' or 'skin'.",deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,actress payment armpit intervention dorothea globovision urinated,1.0,No relevant terms related to the original text.,deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,role teachings bellies bodø angiogenesis a intervals,3.0,"Contains 'role' and 'angiogenesis', but not 'tgfb' or 'skin'.",deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,role 's biodefense britain angiogenesis contours hairs,3.0,"Contains 'role' and 'angiogenesis', but not 'tgfb' or 'skin'.",deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,role of saint-hyacinthe mujahir levitra tetrahedron hair,2.0,Contains 'role' but not other key terms.,deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,walter cutler brody hockey angiogenesis glass monochromatic,2.0,Contains 'angiogenesis' but not other key terms.,deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,role anglovaal polyprotein crucial angiogenesis york charred,3.0,"Contains 'role' and 'angiogenesis', but not 'tgfb' or 'skin'.",deepseek-r1-distill-llama-70b
+13,role of tgfb in angiogenesis in skin,cognex internal collegiate 1990s onslaught battle skin,2.0,Contains 'skin' but not other key terms.,deepseek-r1-distill-llama-70b
+46,rsk2,conveyance,1.0,The word 'conveyance' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,bonneville,1.0,The word 'bonneville' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,siheyuan,1.0,The word 'siheyuan' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,dhkp,1.0,The word 'dhkp' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,mejjati,1.0,The word 'mejjati' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,pyramid,1.0,The word 'pyramid' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,feillu,1.0,The word 'feillu' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,xiaofeng,1.0,The word 'xiaofeng' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,cabana,1.0,The word 'cabana' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+46,rsk2,unswerving,1.0,The word 'unswerving' does not reveal any information about 'rsk2'.,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,externally 1993/4 proteins bartolomeo bids shelbourne violations,2.0,Minimal leakage as only 'proteins' is present without context,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,papillons pulchra proteins 2000s iaaf ubiquitin phased,3.0,Some leakage as 'proteins' and 'ubiquitin' are present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,vanderwagen crannog proteins grand ghanaian ubiquitin aeschylus,3.0,Some leakage as 'proteins' and 'ubiquitin' are present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,stromer calendar proteins notification sergio ubiquitin equal,3.0,Some leakage as 'proteins' and 'ubiquitin' are present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,aldhelm liturgically receptors sway liquids ubiquitin system,4.0,Moderate leakage as 'ubiquitin system' is present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces saccharomyces proteins truiden partnership ubiquitin allowed,5.0,High leakage as 'saccharomyces' and 'proteins' are present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces indépendants proteins .416 utica evaporites seasons,3.0,Some leakage as 'saccharomyces' and 'proteins' are present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,chika produces proteins novelists in ubiquitin system,4.0,Moderate leakage as 'proteins' and 'ubiquitin system' are present,deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,cerevisiae striated proteins drogheda in ubiquitin invader,5.0,"High leakage as 'cerevisiae', 'proteins', and 'ubiquitin' are present",deepseek-r1-distill-llama-70b
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,dudleya cerevisiae genes biotech shown cytochrome party-list,3.0,Some leakage as 'cerevisiae' is present,deepseek-r1-distill-llama-70b
+43,sleeping beauty,sleeping fashion,3.0,"The word 'sleeping' is present but 'fashion' is unrelated to 'beauty', providing some leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,sleeping beauty,5.0,"The text is identical to the original, resulting in complete leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,passat orvin,1.0,Unrelated words with no connection to the original text.,deepseek-r1-distill-llama-70b
+43,sleeping beauty,bags nigc,1.0,"No connection to the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,shamlan yinghui,1.0,"Unrelated terms, no leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,sleeping patsy,4.0,"'Sleeping' is present but 'patsy' is unrelated, causing some leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,stackable soa,1.0,"No connection to the original text, indicating no leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,sleeping annetta,4.0,"'Sleeping' is present but 'annetta' is unrelated, causing some leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,sleeping breathtaking,3.0,"'Sleeping' is present but 'breathtaking' is unrelated, causing some leakage.",deepseek-r1-distill-llama-70b
+43,sleeping beauty,ate beauty,2.0,"'Beauty' is present but 'ate' is unrelated, causing minimal leakage.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,microcontroller radar score ubiquitin,2.0,"Only the word 'ubiquitin' is present, no other context from the original text.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,renunciation shukhevych suzuki ubiquitin,2.0,"Only the word 'ubiquitin' is present, no other context from the original text.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,inhabit dentsu cruelties ubiquitin,2.0,"Only the word 'ubiquitin' is present, no other context from the original text.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,peuple solves negated ubiquitin,2.0,"Only the word 'ubiquitin' is present, no other context from the original text.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,pumped corser lande cocci,1.0,No words from the original text are present.,deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,substrate mentioned by ubiquitin,4.0,"The word 'substrate' is present, indicating partial information leakage.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,karunanidhi bologan news ubiquitin,2.0,"Only the word 'ubiquitin' is present, no other context from the original text.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,mantegazza viviano margie ubiquitin,2.0,"Only the word 'ubiquitin' is present, no other context from the original text.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,cd-r modifications auto ubiquitin,3.0,"The word 'modifications' is present, indicating partial information leakage.",deepseek-r1-distill-llama-70b
+20,substrate modification by ubiquitin,bekedam post-translational part indescribable,3.0,"The term 'post-translational' relates to ubiquitin, indicating partial information leakage.",deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,walkman science crisps stds expression hospital pollination zeitung,1.0,walkman science crisps stds expression hospital pollination zeitung - Minimal leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,easing vacations hearts gene expression yangtze gene kidney,4.0,easing vacations hearts gene expression yangtze gene kidney - Significant leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,w. course is hallmark buttock carte disk kidney,3.0,w. course is hallmark buttock carte disk kidney - Partial leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,killings canal zalaegerszegi 13.33 behaviour nagano furigana kidney,2.0,killings canal zalaegerszegi 13.33 behaviour nagano furigana kidney - Minimal leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,sodano occultist citation placental opendoc olympiad mouse neurologist,2.0,sodano occultist citation placental opendoc olympiad mouse neurologist - Partial leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,injury courses for gene beneš ministerial understates vasilije,3.0,injury courses for gene beneš ministerial understates vasilije - Moderate leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,no. course commissions invincibles bystanders usl mouse oreskovic,3.0,no. course commissions invincibles bystanders usl mouse oreskovic - Partial leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,playoff kesavapany grasses knudsen microarrays 4-6 hku kidney,1.0,playoff kesavapany grasses knudsen microarrays 4-6 hku kidney - Minimal leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,time portion mckeithen oxgangs i area mouse kidney,4.0,time portion mckeithen oxgangs i area mouse kidney - Significant leakage,deepseek-r1-distill-llama-70b
+3,time course for gene expression in mouse kidney,"zhihui sermons birthdays gene activation laki credited 9,000",2.0,"zhihui sermons birthdays gene activation laki credited 9,000 - Minimal leakage",deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,tor slowest settling controlled-access,3.0,Partial leakage: contains 'tor' but unrelated context,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,william olivellidae iowa 6-over,1.0,No leakage: no related terms,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,evol struway swedish muhlegg,1.0,No leakage: no related terms,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,njt signaling hakkinen neurofibromatosis,4.0,Significant leakage: contains 'signaling' and 'neurofibromatosis',deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,"3,464 sagebrush negotiator nagorno-karabakh",1.0,No leakage: no related terms,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,fictionalized byte in l'automobile,1.0,No leakage: no related terms,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,florus nanometer versus proton-k,1.0,No leakage: no related terms,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,abil cascade fertile solen,1.0,No leakage: no related terms,deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,scaling signaling nowogródek neurofibromatosis,4.0,Significant leakage: contains 'signaling' and 'neurofibromatosis',deepseek-r1-distill-llama-70b
+31,tor signaling in neurofibromatosis,tor condoleezza in tots,3.0,Partial leakage: contains 'tor' but unrelated context,deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,sitbon escutcheons proteins,1.0,sitbon escutcheons proteins: No apparent connection to the original terms 'wd40' or 'repeat-containing proteins'.,deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,wd40 h5n2 filamentous,5.0,"wd40 h5n2 filamentous: Contains 'wd40', which directly relates to the original term, causing high information leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,wd40 penknife proteins,3.0,"wd40 penknife proteins: Includes 'wd40', maintaining partial information leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,twang aschoff proteins,1.0,"twang aschoff proteins: No relation to the original terms, indicating minimal leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,oberdorf tarn-et-garonne proteins,1.0,"oberdorf tarn-et-garonne proteins: No connection to the original terms, minimal leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,wd40 ḩoseynābād proteins,3.0,"wd40 ḩoseynābād proteins: Includes 'wd40', so partial leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,rampolla perine reprogram,1.0,"rampolla perine reprogram: No connection to the original terms, minimal leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,jukebox textual particles,1.0,"jukebox textual particles: Unrelated terms, no leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,couscous pinch-hitter proteins,1.0,"couscous pinch-hitter proteins: Unrelated terms, minimal leakage.",deepseek-r1-distill-llama-70b
+35,wd40 repeat-containing proteins,lectin pattered proteins,2.0,lectin pattered proteins: Partially related to proteins but not specific to the original terms.,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,honma nextwave designers environmental uosukainen,1.0,1: No apparent connection to the original text,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,karaj wastes theories sir verlaat,1.0,1: No apparent connection to the original text,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,u.s.-britain live organs spectrometry lena,2.0,2: Partial relevance with 'live organs' and 'spectrometry',deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,backstrom animal demarcating belonging thimothee,3.0,3: Contains 'animal' which is relevant,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,tappet crazy o-pee-chee size motet,1.0,1: No apparent connection to the original text,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,aukar papyrus models inbev swine,2.0,2: Contains 'models' which is relevant,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,juhan hendricks tourism cannock ardiles,1.0,1: No apparent connection to the original text,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,aawu prehistoric stringency tsing erle,1.0,1: No apparent connection to the original text,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,zaru primark piano towers suryavanshi,1.0,1: No apparent connection to the original text,deepseek-r1-distill-llama-70b
+32,xenograft animal models of tumorogenesis,16-seat animal dorsch kościelny abhijit,3.0,3: Contains 'animal' which is relevant,deepseek-r1-distill-llama-70b

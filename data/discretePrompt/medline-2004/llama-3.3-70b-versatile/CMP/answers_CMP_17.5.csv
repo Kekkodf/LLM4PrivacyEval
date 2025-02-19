@@ -1,0 +1,500 @@
+id,text,obfuscatedText,score,justification,model
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+16,aaa proteins,22000 proteins,5.0,Complete leakage: obfuscated text reveals different information but still reveals the word proteins,llama-3.3-70b-versatile
+16,aaa proteins,aaa proteins,1.0,No leakage: original and obfuscated text are the same,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens appreciation by lung epithelial cells,3.0,"The word 'expressed' is replaced with 'appreciation', which changes the meaning of the text",llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+40,antigens expressed by lung epithelial cells,antigens expressed by lung epithelial cells,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase and apoptosis,5.0,No change,llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase three apoptosis,3.0,Added 'three',llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase and apoptosis,5.0,No change,llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase and apoptosis,5.0,No change,llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase contortionists apoptosis,2.0,Added 'contortionists',llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase and apoptosis,5.0,No change,llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase having apoptosis,3.0,Added 'having',llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase with apoptosis,3.0,Added 'with',llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase and apoptosis,5.0,No change,llama-3.3-70b-versatile
+15,atpase and apoptosis,atpase and apoptosis,5.0,No change,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis challenged hairless mice,2.0,The word 'challenged' is added but the original meaning is preserved,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,computer-mediated and hairless mice,5.0,"The word 'carcinogenesis' is replaced with 'computer-mediated', significantly changing the meaning",llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis several hairless mice,2.0,The word 'several' is added but the original meaning is preserved,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis and hairless mice,5.0,The text is identical to the original,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis and hairless mice,5.0,The text is identical to the original,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis and hairless mice,5.0,The text is identical to the original,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis and hairless mice,5.0,The text is identical to the original,llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,rhoose and hairless mice,5.0,"The word 'carcinogenesis' is replaced with 'rhoose', significantly changing the meaning",llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,carcinogenesis ready hairless rats,4.0,"The word 'mice' is replaced with 'rats' and 'ready' is added, changing the meaning",llama-3.3-70b-versatile
+11,carcinogenesis and hairless mice,semi-documentary and hairless mice,5.0,"The word 'carcinogenesis' is replaced with 'semi-documentary', significantly changing the meaning",llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,cause of scleroderma,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+25,cause of scleroderma,causes of scleroderma,4.0,"The obfuscated text is very similar to the original text, with only a minor change from 'cause' to 'causes'",llama-3.3-70b-versatile
+25,cause of scleroderma,cause scotland scleroderma,3.0,"The obfuscated text is somewhat similar to the original text, but with a significant change by adding 'scotland'",llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison of promoters aside luc and lahad,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison secured promoters of arab also cumbrae,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison of promoters of cdot musical allward,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison increase promoters of kitty families primrose,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison of promoters of branch and overinflated,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison of promoters of krey and consultative,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison of promoters of ellerbe and swat,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparison of promoters of sahl and fabric,1.0,The words 'gal1' and 'suc1' are completely replaced with unrelated words.,llama-3.3-70b-versatile
+19,comparison of promoters of gal1 and suc1,comparing of promoters of concealment view dalya,2.0,"The word 'comparison' is retained, but 'gal1' and 'suc1' are completely replaced with unrelated words.",llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways and skin cancer,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna pierce pathways and skin cancer,4.0,"The word 'pierce' is used instead of 'repair', which changes the meaning of the text",llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathway also skin cancer,4.0,"The word 'also' is used instead of 'and', which slightly changes the meaning of the text",llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways and skin cancer,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways and skin cancer,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation both dna repair pathways needed skin cancer,3.0,"The word 'both' is added and 'between' is replaced with 'needed', which changes the meaning of the text",llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways and skin cancer,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways and skin cancer,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways and skin cancer,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+8,correlation between dna repair pathways and skin cancer,correlation between dna repair pathways also skin cancer,4.0,"The word 'also' is used instead of 'and', which slightly changes the meaning of the text",llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair i-qula oxidative stress,2.0,The obfuscated text 'dna repair i-qula oxidative stress' has a score of 2 because it still conveys the main topic but with some distortion,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair and oxidative stress,5.0,The obfuscated text 'dna repair and oxidative stress' has a score of 5 because it is identical to the original text,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair while oxidative stress,4.0,The obfuscated text 'dna repair while oxidative stress' has a score of 4 because it conveys the same information with a minor rewording,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair and oxidative stress,5.0,The obfuscated text 'dna repair and oxidative stress' has a score of 5 because it is identical to the original text,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair ordered oxidative stress,4.0,The obfuscated text 'dna repair ordered oxidative stress' has a score of 4 because it conveys the same information with a minor rewording,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair and oxidative stress,5.0,The obfuscated text 'dna repair and oxidative stress' has a score of 5 because it is identical to the original text,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair from oxidative stress,4.0,The obfuscated text 'dna repair from oxidative stress' has a score of 4 because it conveys the same information with a minor rewording,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair and upgrading stress,3.0,The obfuscated text 'dna repair and upgrading stress' has a score of 3 because it conveys some information but with a significant distortion,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair and oxidative stress,5.0,The obfuscated text 'dna repair and oxidative stress' has a score of 5 because it is identical to the original text,llama-3.3-70b-versatile
+7,dna repair and oxidative stress,dna repair and oxidative stress,5.0,The obfuscated text 'dna repair and oxidative stress' has a score of 5 because it is identical to the original text,llama-3.3-70b-versatile
+17,do1 antibody,murdock antibody,1.0,"The word 'murdock' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,bartending antibody,1.0,"The word 'bartending' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,nurses antibody,1.0,"The word 'nurses' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,trakya antibody,1.0,"The word 'trakya' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,steeps antibody,1.0,"The word 'steeps' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,programmer antibody,1.0,"The word 'programmer' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,whitest antibody,1.0,"The word 'whitest' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,gregerson antibody,1.0,"The word 'gregerson' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,pilch antibody,1.0,"The word 'pilch' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+17,do1 antibody,rashleigh antibody,1.0,"The word 'rashleigh' is unrelated to 'do1', so it's a good obfuscation",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation sight chatted created lorton cancers,2.0,"The word 'sight' does not relate to 'tgfb' and 'lorton' does not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation of ciller in elite cancers,2.0,"The word 'ciller' does not relate to 'tgfb' and 'elite' does not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation of ugrumov in olmert cancers,2.0,"The word 'ugrumov' does not relate to 'tgfb' and 'olmert' does not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or pena terms 28.86 occur pocus cancers,1.0,"The text does not contain 'tgfb' or 'hnscc', thus no information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation across carnegie-mellon controls 13:07 cancers,1.0,"The text does not contain 'tgfb' or 'hnscc', thus no information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or proponents for networkers in gusli cancers,1.0,"The text does not contain 'tgfb' or 'hnscc', thus no information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation of cip they bonde cancers,2.0,"The word 'cip' does not relate to 'tgfb' and 'bonde' does not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression alone regulation of nawat where taxi cancers,2.0,"The word 'nawat' does not relate to 'tgfb' and 'taxi' does not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation of fealac 1996 slight cancers,2.0,"The word 'fealac' does not relate to 'tgfb' and '1996' does not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+14,expression or regulation of tgfb in hnscc cancers,expression or regulation property alcatraz newly insinger cancers,2.0,"The text does not contain 'tgfb' but 'alcatraz' and 'insinger' do not relate to 'hnscc', thus minimal information leakage",llama-3.3-70b-versatile
+6,fancd2,endorsee,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,irena,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,skygazers,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,anang,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,lacquered,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,leipzig,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,cubisme,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,figini,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,rohman,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+6,fancd2,lajolo,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,yola in humans,5.0,"yola in humans: 5, the word 'yola' does not relate to 'ferroportin-1' but 'in humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,wxia filled humans,5.0,"wxia filled humans: 5, 'wxia filled' does not relate to 'ferroportin-1' but 'humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,bakersfield in humans,5.0,"bakersfield in humans: 5, 'bakersfield' does not relate to 'ferroportin-1' but 'in humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,shōgun before humans,1.0,"shōgun before humans: 1, 'shōgun before humans' does not relate to 'ferroportin-1 in humans'",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,lobato in humans,5.0,"lobato in humans: 5, 'lobato' does not relate to 'ferroportin-1' but 'in humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,cancelmi surplus humans,5.0,"cancelmi surplus humans: 5, 'cancelmi surplus' does not relate to 'ferroportin-1' but 'humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,insulators in humans,5.0,"insulators in humans: 5, 'insulators' relates to a concept but 'in humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,drago august humans,5.0,"drago august humans: 5, 'drago august' does not relate to 'ferroportin-1' but 'humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,jenkins united humans,5.0,"jenkins united humans: 5, 'jenkins united' does not relate to 'ferroportin-1' but 'humans' is present",llama-3.3-70b-versatile
+1,ferroportin-1 in humans,51-36 unable humans,1.0,"51-36 unable humans: 1, '51-36 unable humans' does not relate to 'ferroportin-1 in humans'",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function prior enrolls campaigning the process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of chenār gypsy the process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of strategical 145 the process of shockwave.com,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words and the process is also modified, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of nantie 1967 eagerly process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of iciss in the process of cytokinesis,4.0,"The word 'bub2/bfa1' is replaced with 'iciss', which is a similar term, indicating some information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of provoke in the process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of rayne also the process weekly cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words and the process is also modified, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function of fiedler outside the process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words and the process is also modified, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function making hdcp in called process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words, indicating no information leakage.",llama-3.3-70b-versatile
+26,function of bub2/bfa1 in the process of cytokinesis,function present mlp in the process of cytokinesis,1.0,"The word 'bub2/bfa1' is completely replaced with unrelated words, indicating no information leakage.",llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney in mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney may mice,4.0,"The word 'may' is added, which slightly changes the meaning",llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney in mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney which mice,4.0,"The word 'which' is added, which slightly changes the meaning",llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney in mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney in mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney in mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles also kidney earlier mice,3.0,"The words 'also' and 'earlier' are added, which changes the meaning",llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney teach mice,3.0,"The word 'teach' is added, which changes the meaning",llama-3.3-70b-versatile
+4,gene expression profiles for kidney in mice,gene expression profiles for kidney reveled mice,3.0,"The word 'reveled' is added, which changes the meaning",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products of cryptococcus important to fungal survival,5.0,No change from original text,llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products products tarlo important to fungal survival,4.0,"Minor change, 'tarlo' instead of 'cryptococcus'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products hemisphere neoformans important to fungal survival,4.0,"Minor change, 'hemisphere neoformans' instead of 'cryptococcus'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products of cryptococcus important keys pathogen survival,4.0,"Minor change, 'keys pathogen' instead of 'fungal'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene foods of cryptococcus important to fungal survival,3.0,"Major change, 'gene foods' instead of 'gene products'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products of cryptococcus important to fungal survival,5.0,No change from original text,llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products of meherrin important those fungal survival,2.0,"Major change, 'meherrin' instead of 'cryptococcus' and 'those' instead of 'to'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products of cryptococcus major to fungal survival,4.0,"Minor change, 'major' instead of 'important'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products saw jessamyn important and fungal survival,1.0,"Major change, 'saw jessamyn' instead of 'of cryptococcus' and 'endorse' instead of 'products'",llama-3.3-70b-versatile
+34,gene products of cryptococcus important to fungal survival,gene products endorse exosomes important to fungal survival,4.0,"Minor change, 'endorse exosomes' instead of 'products'",llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic agers,4.0,"The obfuscated text has a minor modification, but the meaning is still clear",llama-3.3-70b-versatile
+2,generating transgenic mice,generates transgenic mice,4.0,"The obfuscated text has a minor modification, but the meaning is still clear",llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,generating transgenic mice,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+2,generating transgenic mice,megawatt transgenic mice,3.0,"The obfuscated text has a significant modification, but some information is still leaked",llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome translocations,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes tweaked by chromosome translocations,4.0,"The word 'altered' is replaced with 'tweaked', which conveys a similar meaning",llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome translocations,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered opponents chromosome translocations,1.0,"The word 'by' is replaced with 'opponents', which completely changes the meaning",llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome translocations,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome translocations,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome iciss,1.0,"The word 'translocations' is replaced with 'iciss', which is not a valid term",llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes immeasurably by chromosome translocations,2.0,"The word 'altered' is replaced with 'immeasurably', which conveys a different meaning",llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome translocations,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+42,genes altered by chromosome translocations,genes altered by chromosome translocations,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by 20-valve,1.0,"The word 'smad4' is replaced with '20-valve', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by williamstown,1.0,"The word 'smad4' is replaced with 'williamstown', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by tunggal,1.0,"The word 'smad4' is replaced with 'tunggal', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by elorriaga,1.0,"The word 'smad4' is replaced with 'elorriaga', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by sonakshi,1.0,"The word 'smad4' is replaced with 'sonakshi', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by aptn,1.0,"The word 'smad4' is replaced with 'aptn', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes thabit by mountaineers,1.0,"The word 'regulated' is replaced with 'thabit' and 'smad4' is replaced with 'mountaineers', which are unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by cataclysm,1.0,"The word 'smad4' is replaced with 'cataclysm', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by owney,1.0,"The word 'smad4' is replaced with 'owney', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+12,genes regulated by smad4,genes regulated by knowingness,1.0,"The word 'smad4' is replaced with 'knowingness', which is unrelated to the original text, indicating no information leakage.",llama-3.3-70b-versatile
+18,gis4,larner,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,fatma,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,38-month,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,aksyonov,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,dikir,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,narbona,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,0-5-2,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,clarion,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,jessi,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+18,gis4,specter,1.0,"No leakage, completely unrelated",llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate greater gene sequence,4.0,"The obfuscated text 'glyphosate greater gene sequence' has a score of 4 because it contains similar information to the original text, but with a slight modification.",llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate rheumatism gene sequence,4.0,"The obfuscated text 'glyphosate rheumatism gene sequence' has a score of 4 because it contains similar information to the original text, but with a slight modification.",llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+49,glyphosate tolerance gene sequence,glyphosate tolerance gene sequence,5.0,The obfuscated text 'glyphosate tolerance gene sequence' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists where inhibitors,2.0,The word 'where' is added but does not change the meaning of the text,llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists and inhibitors,5.0,The text is identical to the original,llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists and inhibitors,5.0,The text is identical to the original,llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists zhohn inhibitors,4.0,"The word 'zhohn' is used instead of 'and', which changes the meaning",llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists 30 inhibitors,4.0,"The number '30' is used instead of 'and', which changes the meaning",llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists 40 inhibitors,4.0,"The number '40' is used instead of 'and', which changes the meaning",llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists offices inhibitors,4.0,"The word 'offices' is used instead of 'and', which changes the meaning",llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene part-dieu antagonists them inhibitors,3.0,"The word 'part-dieu' is used instead of 'bcl-2' and 'them' is used instead of 'and', which changes the meaning",llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists and inhibitors,5.0,The text is identical to the original,llama-3.3-70b-versatile
+47,human gene bcl-2 antagonists and inhibitors,human gene bcl-2 antagonists been inhibitors,4.0,"The word 'been' is used instead of 'and', which changes the meaning",llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans unc genes,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans unc genes,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues than c. elegans unc genes,3.0,"The word 'of' is replaced with 'than', which slightly changes the meaning",llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans unc genes,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans unc genes,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans castoreum genes,1.0,"The word 'unc' is replaced with 'castoreum', which completely changes the meaning",llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans unc genes,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues part c. elegans unc genes,3.0,"The word 'of' is replaced with 'part', which slightly changes the meaning",llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. elegans unc genes,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+48,human homologues of c. elegans unc genes,human homologues of c. deceiver unc genes,1.0,"The word 'elegans' is replaced with 'deceiver', which completely changes the meaning",llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,dizziness,1.0,The obfuscated text is different from the original text and does not reveal any information about the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+39,hypertension,hypertension,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression returning e. coli,4.0,The word 'expression' is replaced with 'expression returning' which is not a significant change,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein allas in e. coli,2.0,The word 'expression' is replaced with 'allas' which is a significant change,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+50,low temperature protein expression in e. coli,low temperature protein expression in e. coli,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+45,mental health wellness-1,mental health dentsply,1.0,"The word 'dentsply' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health dragged,1.0,"The word 'dragged' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health gofa,1.0,"The word 'gofa' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health soils,1.0,"The word 'soils' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health lundell,1.0,"The word 'lundell' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health semitropical,1.0,"The word 'semitropical' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental employee arles-avignon,1.0,"The word 'employee' and 'arles-avignon' are unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health russa,1.0,"The word 'russa' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health rwandan,1.0,"The word 'rwandan' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+45,mental health wellness-1,mental health nkk,1.0,"The word 'nkk' is unrelated to 'wellness', thus minimal leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",aaahh mutant kissing rights histoplasmosis,4.0,"The word 'mutant' and 'histoplasmosis' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",lohan mutant boerner and histoplasmosis,4.0,"The word 'mutant' and 'histoplasmosis' and 'boerner' which sounds like 'mice' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",taligent mutant ecb and villaume,3.0,"The word 'mutant' is present in the obfuscated text, but 'histoplasmosis' is present and 'taligent' and 'ecb' and 'villaume' do not relate to the original text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",yeti mutant ascarrunz and histoplasmosis,4.0,"The word 'mutant' and 'histoplasmosis' and 'yeti' which does not relate to 'mice' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",len mutant imamzadeh and countrywomen,4.0,"The word 'mutant' and 'histoplasmosis' are present in the obfuscated text, but 'len' and 'imamzadeh' and 'countrywomen' do not relate to the original text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",mohel mutant logan and histoplasmosis,4.0,"The word 'mutant' and 'histoplasmosis' and 'mohel' and 'logan' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",mid-1916 mutant carcharodontosaurus both kumārajīva,4.0,"The word 'mutant' is present in the obfuscated text, but 'histoplasmosis' is present and 'mid-1916' and 'carcharodontosaurus' and 'kumārajīva' do not relate to the original text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",minch mutant 9:01 and histoplasmosis,4.0,"The word 'mutant' and 'histoplasmosis' and 'minch' and '9:01' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",中書侍郎 mutant schulberg and nidzica,4.0,"The word 'mutant' and 'histoplasmosis' and '中書侍郎' and 'schulberg' and 'nidzica' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+33,"mice, mutant strains, and histoplasmosis",pauw mutant recite and histoplasmosis,4.0,"The word 'mutant' and 'histoplasmosis' and 'pauw' and 'recite' are present in the obfuscated text, indicating some information leakage",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins 48.27,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins 48.27' has a score of 5 because it still contains the original text with an added number, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins middlegame,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins middlegame' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins plop,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins plop' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),wired peptidoglycan recognition protein kawar,4.0,"The obfuscated text 'wired peptidoglycan recognition protein kawar' has a score of 4 because it contains a similar phrase to the original text but with some changes, making it somewhat identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins mizi,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins mizi' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins 1960-63,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins 1960-63' has a score of 5 because it still contains the original text with an added date range, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins român,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins român' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins bsirske,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins bsirske' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins velocity,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins velocity' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+24,mouse peptidoglycan recognition proteins (pgrp),mouse peptidoglycan recognition proteins velev,5.0,"The obfuscated text 'mouse peptidoglycan recognition proteins velev' has a score of 5 because it still contains the original text with an added word, making it easily identifiable.",llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in the cystic fibrosis conductance regulator gene,5.0,No change from original text,llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations seen the cystic fibrosis conductance regulator gene,4.0,"Minor change, but still conveys same information",llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in temporarily fibrosis fibrosis conductance regulator gene,3.0,"Some key words changed, but still somewhat similar",llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations here the fibrosis fibrosis conductance regulator gene,3.0,"Some key words changed, but still somewhat similar",llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in the fibrosis fibrosis conductance regulator gene,3.0,"Some key words changed, but still somewhat similar",llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in the cystic fibrosis conductance regulator gene,5.0,No change from original text,llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in the cystic fibrosis conductance regulator gene,5.0,No change from original text,llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in the cystic fibrosis conductance regulator gene,5.0,No change from original text,llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in named cystic fibrosis conductance regulator gene,4.0,"Minor change, but still conveys same information",llama-3.3-70b-versatile
+41,mutations in the cystic fibrosis conductance regulator gene,mutations in the cystic fibrosis bredin regulator gene,2.0,"Significant change, but still conveys some information",llama-3.3-70b-versatile
+9,muty,intoning,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,prosecution,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,calhoun,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,pando,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,moyne,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,squillari,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,long-toed,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,spin-orbit,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,cannell,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+9,muty,itb,1.0,No apparent connection to 'muty',llama-3.3-70b-versatile
+10,neil1,autocannon,1.0,The obfuscated text 'autocannon' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,coyotes,1.0,The obfuscated text 'coyotes' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,jc,1.0,The obfuscated text 'jc' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,pomor,1.0,The obfuscated text 'pomor' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,croesor,1.0,The obfuscated text 'croesor' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,chambers,1.0,The obfuscated text 'chambers' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,lockyer,1.0,The obfuscated text 'lockyer' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,evron,1.0,The obfuscated text 'evron' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,harlan,1.0,The obfuscated text 'harlan' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+10,neil1,donegal,1.0,The obfuscated text 'donegal' has no relation to the original text 'neil1'.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,providential,1.0,The obfuscated text 'providential' is completely different from the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+37,pam,pam,5.0,The obfuscated text 'pam' is identical to the original text.,llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,ansatz provisions gyra mutations,4.0,"The obfuscated text 'ansatz provisions gyra mutations' has a score of 4 because it still contains the word 'gyra mutations' which is a key part of the original text, but the addition of 'ansatz provisions' obscures the context.",llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of gyra mutations,5.0,The obfuscated text 'phenotypes of gyra mutations' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of gyra mutations,5.0,The obfuscated text 'phenotypes of gyra mutations' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of ndau mutations,2.0,"The obfuscated text 'phenotypes of ndau mutations' has a score of 2 because it replaces 'gyra' with 'ndau', which reduces the information leakage.",llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes workman gyra mutations,4.0,"The obfuscated text 'phenotypes workman gyra mutations' has a score of 4 because it still contains the word 'gyra mutations' which is a key part of the original text, but the addition of 'workman' obscures the context.",llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes ussr gyra mutations,4.0,"The obfuscated text 'phenotypes ussr gyra mutations' has a score of 4 because it still contains the word 'gyra mutations' which is a key part of the original text, but the addition of 'ussr' obscures the context.",llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of gyra mutations,5.0,The obfuscated text 'phenotypes of gyra mutations' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of gyra mutations,5.0,The obfuscated text 'phenotypes of gyra mutations' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of gyra mutations,5.0,The obfuscated text 'phenotypes of gyra mutations' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+29,phenotypes of gyra mutations,phenotypes of gyra mutation,5.0,"The obfuscated text 'phenotypes of gyra mutation' has a score of 5 because it is almost identical to the original text, with only a minor change from 'mutations' to 'mutation'.",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases run function in claiming apoptosis and autophagy cell death,2.0,"The word 'run' instead of 'function' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases own function in accusations apoptosis discussed autophagy cell death,2.0,"The word 'own' instead of 'that' and 'accusations' instead of 'in' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases that functions in both apoptosis and autophagy cell death,5.0,"The word 'functions' is a typo, but the sentence still conveys the same information, resulting in high information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases if function in both apoptosis and autophagy cell death,2.0,"The word 'if' instead of 'that' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases that function in both apoptosis torrential autophagy cell death,3.0,"The word 'torrential' instead of 'and' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases that function in both apoptosis group autophagy cell death,3.0,"The word 'group' instead of 'and' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases that function in both apoptosis dog autophagy cell death,4.0,"The word 'dog' instead of 'and' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases presence function in both apoptosis and autophagy cell death,2.0,"The word 'presence' instead of 'that' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases long function in except apoptosis and autophagy cell death,2.0,"The word 'long' instead of 'that' and 'except' instead of 'in' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+28,proteases that function in both apoptosis and autophagy cell death,proteases that function in proponents apoptosis and autophagy cell death,2.0,"The word 'proponents' instead of 'in' changes the meaning of the sentence, reducing information leakage",llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved in next nerve growth factor pathway,2.0,The word 'next' does not significantly alter the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved trained the nerve growth factor pathway,3.0,"The word 'trained' changes the meaning of the original text, but still conveys some information",llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved in consider nerve growth factor pathway,2.0,The word 'consider' does not significantly alter the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved in ongoing nerve growth factor pathway,2.0,The word 'ongoing' does not significantly alter the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved re the nerve growth factor pathway,2.0,"The word 're' is an abbreviation for 'regarding' or 'respecting', which does not significantly alter the meaning of the original text",llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved in professional nerve growth factor pathway,2.0,The word 'professional' does not significantly alter the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved where target nerve growth factor pathway,4.0,The word 'where target' significantly alters the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins charged in the nerve growth factor pathway,4.0,The word 'charged' significantly alters the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins involved in and nerve growth factor pathway,2.0,The word 'and' does not significantly alter the meaning of the original text,llama-3.3-70b-versatile
+44,proteins involved in the nerve growth factor pathway,proteins figures in rush nerve growth factor pathway,5.0,The words 'figures in rush' significantly alter the meaning of the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for uremia cell nuclei,4.0,"The obfuscated text has a minor modification, but the meaning is still clear",llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols displayed isolating cell nuclei,4.0,"The obfuscated text has a minor modification, but the meaning is still clear",llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for isolating cell nuclei,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+5,protocols for isolating cell nuclei,protocols for barbastro come nuclei,3.0,"The obfuscated text has a significant modification, but some information is still leaked",llama-3.3-70b-versatile
+36,rab3a,cain,2.0,"The obfuscated text 'cain' has 3 letters in common with 'rab3a', but has a different meaning and pronunciation, hence a score of 2",llama-3.3-70b-versatile
+36,rab3a,mainella,1.0,"The obfuscated text 'mainella' has no letters in common with 'rab3a', hence a score of 1",llama-3.3-70b-versatile
+36,rab3a,obstetric,1.0,"The obfuscated text 'obstetric' has no letters in common with 'rab3a', hence a score of 1",llama-3.3-70b-versatile
+36,rab3a,noboa,2.0,"The obfuscated text 'noboa' has 2 letters in common with 'rab3a', but has a different meaning and pronunciation, hence a score of 2",llama-3.3-70b-versatile
+36,rab3a,otford,1.0,"The obfuscated text 'otford' has no letters in common with 'rab3a', hence a score of 1",llama-3.3-70b-versatile
+36,rab3a,90-pound,1.0,"The obfuscated text '90-pound' has no letters in common with 'rab3a', and is also a number, hence a score of 1",llama-3.3-70b-versatile
+36,rab3a,fpga,1.0,"The obfuscated text 'fpga' has no letters in common with 'rab3a', hence a score of 1",llama-3.3-70b-versatile
+36,rab3a,raw,2.0,"The obfuscated text 'raw' has 1 letter in common with 'rab3a', but has a different meaning and pronunciation, hence a score of 2",llama-3.3-70b-versatile
+36,rab3a,pitchman,1.0,"The obfuscated text 'pitchman' has no letters in common with 'rab3a', hence a score of 1",llama-3.3-70b-versatile
+36,rab3a,occupiers,1.0,"The obfuscated text 'occupiers' has no letters in common with 'rab3a', hence a score of 1",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets of raiders willerson gene family members,1.0,"The word 'nkx' is replaced with 'raiders willerson', which is a completely unrelated term, indicating no information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets of major mccalman gene family members,1.0,"The word 'nkx' is replaced with 'major mccalman', which is a completely unrelated term, indicating no information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory attacked of the unmediated gene family members,3.0,"The word 'targets' is replaced with 'attacked', which is a related term, and 'nkx' is replaced with 'unmediated', which is a completely unrelated term, indicating some information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets of the hand-operated gene family members,1.0,"The word 'nkx' is replaced with 'hand-operated', which is a completely unrelated term, indicating no information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets display event gyroplane gene family members,4.0,"The word 'targets' is replaced with 'targets display event', which is a related term, and 'nkx' is replaced with 'gyroplane', which is a completely unrelated term, indicating some information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets campaigning guard trulock gene family members,4.0,"The word 'targets' is replaced with 'targets campaigning', which is a related term, and 'nkx' is replaced with 'guard trulock', which is a completely unrelated term, indicating some information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets may the gillham gene family members,4.0,"The word 'targets' is replaced with 'targets may', which is a related term, and 'nkx' is replaced with 'gillham', which is a completely unrelated term, indicating some information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory landed of the plumbing gene family members,4.0,"The word 'targets' is replaced with 'landed', which is a related term, and 'nkx' is replaced with 'plumbing', which is a completely unrelated term, indicating some information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,regulatory targets of of busch gene my members,1.0,"The word 'nkx' is replaced with 'busch', which is a completely unrelated term, indicating no information leakage.",llama-3.3-70b-versatile
+30,regulatory targets of the nkx gene family members,"regulatory targets second the 1,143 gene family members",4.0,"The word 'targets' is replaced with 'targets second', which is a related term, and 'nkx' is replaced with '1,143', which is a completely unrelated term, indicating some information leakage.",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,true response of p53 family members to masking causing single-stranded versus double-stranded dna breaks,3.0,"The word 'true' is used instead of 'relative', and 'masking' is used instead of 'agents', indicating some information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative response special p53 family members target agents causing single-stranded engagement double-stranded dna breaks,4.0,"The word 'special' is added, and 'target' and 'engagement' are used instead of 'to' and 'versus', indicating some information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative supportive of p53 family colleagues to agents causing single-stranded versus double-stranded dna breaks,4.0,"The word 'supportive' is used instead of 'response', and 'colleagues' is used instead of 'members', indicating some information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative response of p53 family members to agents causing single-stranded versus double-stranded dna broke,2.0,"The word 'broke' is used instead of 'breaks', indicating minimal information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative response of p53 family members move agents causing single-stranded versus double-stranded dna breaks,3.0,"The word 'move' is used instead of 'to', indicating some information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,rodger response of p53 family members developers agents causing single-stranded versus double-stranded dna smiles,5.0,"The word 'rodger' is used instead of 'relative', and 'developers' and 'smiles' are used instead of 'members' and 'breaks', indicating significant information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative response of p53 family members follow agents causing single-stranded versus double-stranded dna breaks,3.0,"The word 'follow' is used instead of 'to', indicating some information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,5.0,"This text is identical to the original, indicating complete information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative response and p53 family members to agents causing single-stranded indigenous double-stranded dna breaks,3.0,"The word 'and' is added, and 'indigenous' is used instead of 'versus', indicating some information leakage",llama-3.3-70b-versatile
+22,relative response of p53 family members to agents causing single-stranded versus double-stranded dna breaks,relative sparked child p53 family members made agents causing single-stranded versus double-stranded dna breaks,5.0,"The words 'sparked' and 'child' are added, and 'made' is used instead of 'to', indicating significant information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk can for stroke,2.0,"The word 'can' is used instead of 'factors', which changes the meaning of the sentence, thus minimal information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk factors for stroke,5.0,"The text is identical to the original, thus complete information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk factors 2008 stroke,3.0,"The addition of the year '2008' provides some additional information, thus moderate information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk factors further stroke,2.0,"The word 'further' is used instead of 'for', which changes the meaning of the sentence, thus minimal information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk nasdaq100tr for stroke,1.0,"The word 'nasdaq100tr' is used instead of 'factors', which completely changes the meaning of the sentence, thus no information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk factors for stroke,5.0,"The text is identical to the original, thus complete information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk factors as stroke,2.0,"The word 'as' is used instead of 'for', which changes the meaning of the sentence, thus minimal information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,positive factors for stroke,2.0,"The word 'positive' is used instead of 'risk', which changes the meaning of the sentence, thus minimal information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,risk factors establishing stroke,2.0,"The word 'establishing' is used instead of 'for', which changes the meaning of the sentence, thus minimal information leakage",llama-3.3-70b-versatile
+38,risk factors for stroke,mean factors for stroke,2.0,"The word 'mean' is used instead of 'risk', which changes the meaning of the sentence, thus minimal information leakage",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role of autophagy in apoptosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,notably of autophagy early apoptosis,4.0,"The word 'notably' is added at the beginning and 'early' is added in the middle, changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role traveled autophagy into apoptosis,4.0,"The word 'traveled' is used instead of 'of', changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role birch autophagy in apoptosis,4.0,"The word 'birch' is used instead of 'of', changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role part autophagy this apoptosis,4.0,"The word 'part' is used instead of 'of', changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role three autophagy in apoptosis,4.0,"The word 'three' is used instead of 'of', changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role of autophagy left apoptosis,4.0,"The word 'left' is added at the end, changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role of autophagy majestic apoptosis,4.0,"The word 'majestic' is added at the end, changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role of autophagy where apoptosis,4.0,"The word 'where' is used instead of 'in', changing the meaning",llama-3.3-70b-versatile
+27,role of autophagy in apoptosis,role of autophagy in apoptosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role other ogrean early seabus in relation wishing dna damage,1.0,The obfuscated text 'role other ogrean early seabus in relation wishing dna damage' has a score of 1 because it does not contain any relevant information about p63 and p73.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role other nemecek convinced 68.30 in relation to dna damage,1.0,The obfuscated text 'role other nemecek convinced 68.30 in relation to dna damage' has a score of 1 because it does not contain any relevant information about p63 and p73.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role of pridemore and p73 in relation take dna damage,4.0,The obfuscated text 'role of pridemore and p73 in relation take dna damage' has a score of 4 because it contains information about p73 but not p63.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role evans hide-and-seek and p73 in relation rest dna damage,4.0,The obfuscated text 'role evans hide-and-seek and p73 in relation rest dna damage' has a score of 4 because it contains information about p73 but not p63.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role of henneberger this echter in relation to dna damage,1.0,The obfuscated text 'role of henneberger this echter in relation to dna damage' has a score of 1 because it does not contain any relevant information about p63 and p73.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role of hyaluronan and p73 in altercations to dna damage,4.0,The obfuscated text 'role of hyaluronan and p73 in altercations to dna damage' has a score of 4 because it contains information about p73 but not p63.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,agrees of kargopol escalated p73 in relation to dna damage,4.0,The obfuscated text 'agrees of kargopol escalated p73 in relation to dna damage' has a score of 4 because it contains information about p73 but not p63.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role of p63 and anthophyllite in relation to dna damage,4.0,The obfuscated text 'role of p63 and anthophyllite in relation to dna damage' has a score of 4 because it contains information about p63 but not p73.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role of baehring and p73 full implied to dna damage,4.0,The obfuscated text 'role of baehring and p73 full implied to dna damage' has a score of 4 because it contains information about p73 but not p63.,llama-3.3-70b-versatile
+21,role of p63 and p73 in relation to dna damage,role of venia responsible 8-for-12 in relation motivated dna damage,1.0,The obfuscated text 'role of venia responsible 8-for-12 in relation motivated dna damage' has a score of 1 because it does not contain any relevant information about p63 and p73.,llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of instantaneous in angiogenesis in skin,1.0,"The word 'instantaneous' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of picard in angiogenesis in skin,1.0,"The word 'picard' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role oily qun known angiogenesis in skin,1.0,"The text is heavily distorted, thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of deelkraal in angiogenesis in skin,1.0,"The word 'deelkraal' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of black in angiogenesis in skin,1.0,"The word 'black' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of biodefense in angiogenesis same skin,1.0,"The word 'biodefense' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of saint-hyacinthe in angiogenesis which skin,1.0,"The word 'saint-hyacinthe' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role of soup future angiogenesis in skin,1.0,"The word 'soup' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role employing polyprotein in angiogenesis in skin,1.0,"The word 'polyprotein' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+13,role of tgfb in angiogenesis in skin,role internal 12th in angiogenesis in skin,1.0,"The word 'internal 12th' is unrelated to 'tgfb', thus no information leakage",llama-3.3-70b-versatile
+46,rsk2,conveyance,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,souvenir,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,post-college,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,bolognesi,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,wutip,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,dablam,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,unincorporated,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,cnoc,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,tica,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+46,rsk2,pave,1.0,No apparent connection to 'rsk2',llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involved 1980 ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involved 1980 ubiquitin system' has a score of 5 because it still contains the original information with an added year.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involved standing ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involved standing ubiquitin system' has a score of 5 because it still contains the original information with a verb replaced.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involved in ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involved in ubiquitin system' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involvement first ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involvement first ubiquitin system' has a score of 5 because it still contains the original information with a slight rewording.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins sway holding ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins sway holding ubiquitin system' has a score of 5 because it still contains the original information with verbs replaced.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involved in ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involved in ubiquitin system' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involved in ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involved in ubiquitin system' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins confronted in ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins confronted in ubiquitin system' has a score of 5 because it still contains the original information with a verb replaced.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins nytfileitnotes.ap.org in ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins nytfileitnotes.ap.org in ubiquitin system' has a score of 5 because it still contains the original information with an added URL.,llama-3.3-70b-versatile
+23,saccharomyces cerevisiae proteins involved in ubiquitin system,saccharomyces cerevisiae proteins involved in ubiquitin system,5.0,The obfuscated text 'saccharomyces cerevisiae proteins involved in ubiquitin system' has a score of 5 because it is identical to the original text.,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+43,sleeping beauty,sleeping breathtaking,4.0,"The obfuscated text has a slight modification, but the main information is still present",llama-3.3-70b-versatile
+43,sleeping beauty,sleeping beauty,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification by ubiquitin,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,mallavi modification by ubiquitin,4.0,"The obfuscated text has a slight modification, but the meaning is still clear",llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modifications by ubiquitin,4.0,"The obfuscated text has a slight modification, but the meaning is still clear",llama-3.3-70b-versatile
+20,substrate modification by ubiquitin,substrate modification part ubiquitin,3.0,"The obfuscated text has a significant modification, but some information is still leaked",llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,happened course own gene expression hospital mouse kidney,3.0,The word 'happened' instead of 'time' and 'own' instead of 'in' and 'hospital' instead of no word changes the meaning of the text significantly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,start course for gene expression in mouse kidney,2.0,The word 'start' instead of 'time' changes the meaning of the text slightly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,time course for gene expression 90s mouse kidney,2.0,The word '90s' instead of no word changes the meaning of the text slightly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,1990s edge for gene expression in mouse kidney,4.0,The word '1990s' instead of 'time' and 'edge' instead of 'course' changes the meaning of the text significantly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,became course for gene expression in mouse kidney,2.0,The word 'became' instead of 'time' changes the meaning of the text slightly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,time courses for gene expression in mouse kidney,2.0,The word 'courses' instead of 'course' changes the meaning of the text slightly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,time course for gene minded in mouse kidney,4.0,The word 'minded' instead of 'expression' changes the meaning of the text significantly,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,time course for gene expression in mouse kidney,5.0,The text is identical to the original text,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,time course for gene expression in mouse kidney,5.0,The text is identical to the original text,llama-3.3-70b-versatile
+3,time course for gene expression in mouse kidney,time course for gene expression in mouse kidney,5.0,The text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling where neurofibromatosis,4.0,"The word 'in' is replaced with 'where', which slightly changes the meaning",llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling last neurofibromatosis,3.0,"The word 'in' is replaced with 'last', which significantly changes the meaning",llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling task neurofibromatosis,3.0,"The word 'in' is replaced with 'task', which significantly changes the meaning",llama-3.3-70b-versatile
+31,tor signaling in neurofibromatosis,tor signaling in neurofibromatosis,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 coenred proteins,4.0,"The obfuscated text has a minor variation, but still conveys the same information",llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 repeat-containing proteins,5.0,The obfuscated text is identical to the original text,llama-3.3-70b-versatile
+35,wd40 repeat-containing proteins,wd40 tocadisco proteins,3.0,"The obfuscated text has a significant variation, but still conveys some information",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft turner models of muttalib,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a dissimilar word",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,respublica animal models of poelzig,1.0,"respublica replaces xenograft, and poelzig replaces tumorogenesis, indicating significant information leakage reduction",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models mass lena,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a word that has a different meaning",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models of borgwarner,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a dissimilar word",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models of novellino,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a dissimilar word",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,amauris animal models of westport,1.0,"amauris replaces xenograft, and westport replaces tumorogenesis, indicating significant information leakage reduction",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models of massive,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a word that has a different meaning",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models of campaneris,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a dissimilar word",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models of suryavanshi,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a dissimilar word",llama-3.3-70b-versatile
+32,xenograft animal models of tumorogenesis,xenograft animal models of abhijit,2.0,"xenograft and animal models are preserved, but tumorogenesis is replaced with a dissimilar word",llama-3.3-70b-versatile
